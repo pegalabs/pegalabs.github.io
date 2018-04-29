@@ -140,7 +140,7 @@ Let us then get kubectl get proper credentials for this cluster
 
 First of all run the [Kubernetes sub-generator]({{ site.url }}/kubernetes). Reply to the questions as usual but let us
 use Container engine by pushing our docker image on Google Cloud. To the question "What should we use for the base Docker
-repository name?", reply by `gcr.io/jhipster-kubernetes-cloud-sql`. Replace with your project ID. For the docker image push
+repository name?", reply by `gcr.io/bpmlabs-kubernetes-cloud-sql`. Replace with your project ID. For the docker image push
 command let us use `gcloud docker -- push` in order to push to the project container repository.
 
 Build your image
@@ -150,11 +150,11 @@ Build your image
 Tag the image (replace with your jhipster application name). We use v1 as a tag to be able to easily deploy new versions
 of the application or rollback if something goes horribly wrong.
 
-    docker image tag jhipstergooglecloudsql gcr.io/jhipster-kubernetes-cloud-sql/jhipstergooglecloudsql:v1
+    docker image tag jhipstergooglecloudsql gcr.io/bpmlabs-kubernetes-cloud-sql/bpmlabsgooglecloudsql:v1
 
 You can then push the image to Google Container engine as follows:
 
-    gcloud docker -- push gcr.io/jhipster-kubernetes-cloud-sql/jhipstergooglecloudsql:v1
+    gcloud docker -- push gcr.io/bpmlabs-kubernetes-cloud-sql/bpmlabsgooglecloudsql:v1
 
 ## Get the credentials and register them with Kubernetes
 
@@ -196,11 +196,11 @@ First of all you can delete the generated mysql deployment file since we are goi
 Then we need to change a few things in `jhipstergooglecloudsql-deployment.yml`. First of all the Spring data source URL
 should be changed to localhost since we will be using a Cloud SQL proxy:
 
-    jdbc:mysql://localhost:3306/jhipstergooglecloudsql?useUnicode=true&characterEncoding=utf8&useSSL=false
+    jdbc:mysql://localhost:3306/bpmlabsgooglecloudsql?useUnicode=true&characterEncoding=utf8&useSSL=false
 
 Then you can add the version number to the container image:
 
-    image: gcr.io/jhipster-kubernetes-cloud-sql/jhipstergooglecloudsql:v1
+    image: gcr.io/bpmlabs-kubernetes-cloud-sql/bpmlabsgooglecloudsql:v1
 
 Then we need to add an entry to deploy the cloud sql proxy with the sidecar pattern:
 
@@ -244,12 +244,12 @@ The full deployment file should now look like this:
         spec:
           containers:
           - name: jhipstergooglecloudsql
-            image: gcr.io/jhipster-kubernetes-cloud-sql/jhipstergooglecloudsql:v1
+            image: gcr.io/bpmlabs-kubernetes-cloud-sql/bpmlabsgooglecloudsql:v1
             env:
             - name: SPRING_PROFILES_ACTIVE
               value: prod
             - name: SPRING_DATASOURCE_URL
-              value: jdbc:mysql://localhost:3306/jhipstergooglecloudsql?useUnicode=true&characterEncoding=utf8&useSSL=false
+              value: jdbc:mysql://localhost:3306/bpmlabsgooglecloudsql?useUnicode=true&characterEncoding=utf8&useSSL=false
             ports:
             - containerPort: 8080
           - image: b.gcr.io/cloudsql-docker/gce-proxy:1.05

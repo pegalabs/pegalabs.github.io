@@ -37,7 +37,7 @@ The Visual Studio Code Java extension can't be used to run commands: it can't co
 
 For all those tasks, there are 2 solutions:
 
-- Use the [JHipster App]({{ site.url }}/jhipster-app), which offers a graphical interface for all those commands
+- Use the [JHipster App]({{ site.url }}/bpmlabs-app), which offers a graphical interface for all those commands
 - Use the terminal, for instance the internal terminal provided by Visual Studio Code, to run those commands manually
 
 ## Application "hot restart" with Spring Boot devtools

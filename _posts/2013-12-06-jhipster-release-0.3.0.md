@@ -44,4 +44,4 @@ Help and bugs
 If you find any issue with this release, don't hesitate to:
 
 - Contact [@java_hipster](https://twitter.com/java_hipster) on Twitter
-- Add a bug on our [bug tracker](https://github.com/jhipster/generator-jhipster/issues?state=open)
+- Add a bug on our [bug tracker](https://github.com/bpmlabs/generator-jhipster/issues?state=open)

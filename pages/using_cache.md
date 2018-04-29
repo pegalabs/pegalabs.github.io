@@ -41,7 +41,7 @@ Those values should be tuned depending on your specific business needs, and the 
 
 - It is the default option for microservices, as we expect microservices to scale
 - It is the default option for gateways, as we expect them to scale, and as Hazelcast is used to distribute the [gateway rate-limiting information]({{ site.url }}/api-gateway/#rate_limiting)
-- When used within a monolith, Hazelcast needs to have the [JHipster Registry]({{ site.url }}/jhipster-registry/) option in order to scale
+- When used within a monolith, Hazelcast needs to have the [JHipster Registry]({{ site.url }}/bpmlabs-registry/) option in order to scale
 
 For scaling applications, Hazelcast will use the configured service discovery in order to find new nodes, and scale horizontally. With microservices and gateways, this will work both with the JHipster Registry and Consul, and for monoliths this will only work with the JHipster Registry.
 

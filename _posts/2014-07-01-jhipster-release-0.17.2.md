@@ -11,7 +11,7 @@ JHipster release 0.17.2
 What's new
 ----------
 
-JHipster 0.17.2 is a bug-fixing release, that should correct our [major #404 issue](https://github.com/jhipster/generator-jhipster/issues/404). Thanks for commenting the bug and notifying [@juliendubois](https://twitter.com/juliendubois) if you still have the bug!!
+JHipster 0.17.2 is a bug-fixing release, that should correct our [major #404 issue](https://github.com/bpmlabs/generator-jhipster/issues/404). Thanks for commenting the bug and notifying [@juliendubois](https://twitter.com/juliendubois) if you still have the bug!!
 
 How to upgrade
 ------------
@@ -34,5 +34,5 @@ Help and bugs
 If you find any issue with this release, don't hesitate to:
 
 - Contact [@java_hipster](https://twitter.com/java_hipster) on Twitter
-- Add a bug on our [bug tracker](https://github.com/jhipster/generator-jhipster/issues?state=open)
-- Post a question on [Stack Overflow](http://stackoverflow.com/tags/jhipster/info)
+- Add a bug on our [bug tracker](https://github.com/bpmlabs/generator-jhipster/issues?state=open)
+- Post a question on [Stack Overflow](http://stackoverflow.com/tags/bpmlabs/info)

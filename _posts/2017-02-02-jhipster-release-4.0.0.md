@@ -8,7 +8,7 @@ JHipster release 4.0.0
 
 This new major release is a huge step forward, after nearly one year of very hard work.
 
-This would never have been possible without our wonderful [core dev team]({{ site.url }}/team/) and our incredible number of [contributors](https://github.com/jhipster/generator-jhipster/graphs/contributors)! Thank you so much, everyone!
+This would never have been possible without our wonderful [core dev team]({{ site.url }}/team/) and our incredible number of [contributors](https://github.com/bpmlabs/generator-jhipster/graphs/contributors)! Thank you so much, everyone!
 
 Summary
 ------------
@@ -16,7 +16,7 @@ Summary
 JHipster now support both AngularJS 1 and Angular 2.x, making it:
 
 - The only available "full stack" generator for Angular 2.x
-- The only generator that creates non-trivial Angular 2.x code, in particular using our [JDL Studio](https://start.jhipster.tech/jdl-studio/)
+- The only generator that creates non-trivial Angular 2.x code, in particular using our [JDL Studio](https://bpmlabs.github.io/jdl-studio/)
 
 We have also removed a lot of our previous pain points, so that generation is easier, faster, and safer.
 
@@ -49,8 +49,8 @@ JHipster server-side library and NG JHipster library
 
 One of the usual complaints with JHipster is that we generated too much code. So with JHipster 4 we introduce 2 new libraries:
 
-- The [JHipster server-side library](https://github.com/jhipster/jhipster) contains "utility" classes that were previously generated. You can still extend or override them if you don't like their default implementation, in those (unlikely) use cases where those classes don't suit you.
-- The [NG JHipster library](https://github.com/jhipster/ng-jhipster) contains the same kind of "utility" code that was previously generated, but for Angular 2.x.
+- The [JHipster server-side library](https://github.com/bpmlabs/bpmlabs) contains "utility" classes that were previously generated. You can still extend or override them if you don't like their default implementation, in those (unlikely) use cases where those classes don't suit you.
+- The [NG JHipster library](https://github.com/bpmlabs/ng-jhipster) contains the same kind of "utility" code that was previously generated, but for Angular 2.x.
 
 As a result, the generated code should be much simpler, and easier to understand.
 
@@ -77,11 +77,11 @@ What's next?
 
 As this is a 4.0.0 release, with a lot of changes, we expect to release regularly patch versions. Be sure to follow [@java_hipster](https://twitter.com/java_hipster) to be notified of those new versions!
 
-Our documentation is not totally updated, as it is very big. If you see any issue, don't hesitate to create a ticket, and maybe even send a pull request, on our [documentation repository](https://github.com/jhipster/jhipster.github.io).
+Our documentation is not totally updated, as it is very big. If you see any issue, don't hesitate to create a ticket, and maybe even send a pull request, on our [documentation repository](https://github.com/bpmlabs/bpmlabs.github.io).
 
 Closed tickets and merged pull requests
 ------------
-As always, __[you can check all closed tickets and merged pull requests here](https://github.com/jhipster/generator-jhipster/issues?q=milestone%3A4.0.0+is%3Aclosed)__.
+As always, __[you can check all closed tickets and merged pull requests here](https://github.com/bpmlabs/generator-jhipster/issues?q=milestone%3A4.0.0+is%3Aclosed)__.
 
 How to upgrade
 ------------
@@ -126,8 +126,8 @@ Help and bugs
 
 If you find any issue with this release, don't hesitate to:
 
-- Add a bug on our [bug tracker](https://github.com/jhipster/generator-jhipster/issues?state=open)
-- Post a question on [Stack Overflow](http://stackoverflow.com/tags/jhipster/info)
+- Add a bug on our [bug tracker](https://github.com/bpmlabs/generator-jhipster/issues?state=open)
+- Post a question on [Stack Overflow](http://stackoverflow.com/tags/bpmlabs/info)
 
 If the issue you have is an urgent bug or security issue, please:
 

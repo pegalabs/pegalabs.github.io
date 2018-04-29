@@ -41,7 +41,7 @@ This solution uses a secure token that holds the user's login name and authoriti
 
 ### Securing JWT
 
-- The secret key is configured in the `application.yml` file, as the `jhipster.security.authentication.jwt.secret` property. As this key must be kept secret, you **should** store it in a secure way for your production profile. It can be set up using the usual Spring Boot property configuration: using a Spring Cloud Config server like the [JHipster Registry]({{ site.url }}/jhipster-registry/) (our recommended option), using an environment variable, or even a specific `application-prod.yml` file which is SCP'd by a sysadmin into the same directory as your application's executable WAR file.
+- The secret key is configured in the `application.yml` file, as the `jhipster.security.authentication.jwt.secret` property. As this key must be kept secret, you **should** store it in a secure way for your production profile. It can be set up using the usual Spring Boot property configuration: using a Spring Cloud Config server like the [JHipster Registry]({{ site.url }}/bpmlabs-registry/) (our recommended option), using an environment variable, or even a specific `application-prod.yml` file which is SCP'd by a sysadmin into the same directory as your application's executable WAR file.
 - You **should** change the default "user" and "admin" passwords. The easiest way to do this is to deploy your application, login as "user/user" and then "admin/admin", and for each of them use the "Account > Password" menu to change the password.
 
 ## <a name="session"></a> Session-based authentication
@@ -50,7 +50,7 @@ This is the "classical" Spring Security authentication mechanism, but we have im
 
 ### Securing Session-based authentication
 
-- For remember-me authentication, the remember-me key is configured in the `application-dev.yml` and `application-prod.yml` files, as the `jhipster.security.remember-me.key` property. As this key must be kept secret, you **should** store it in a secure way for your production profile. It can be set up using the usual Spring Boot property configuration: using a Spring Cloud Config server like the [JHipster Registry]({{ site.url }}/jhipster-registry/) (our recommended option), using an environment variable, or even a specific `application-prod.yml` file which is SCP'd by a sysadmin into the same directory as your application's executable WAR file.
+- For remember-me authentication, the remember-me key is configured in the `application-dev.yml` and `application-prod.yml` files, as the `jhipster.security.remember-me.key` property. As this key must be kept secret, you **should** store it in a secure way for your production profile. It can be set up using the usual Spring Boot property configuration: using a Spring Cloud Config server like the [JHipster Registry]({{ site.url }}/bpmlabs-registry/) (our recommended option), using an environment variable, or even a specific `application-prod.yml` file which is SCP'd by a sysadmin into the same directory as your application's executable WAR file.
 - You **should** change the default "user" and "admin" passwords. The easiest way to do this is to deploy your application, login as "user/user" and then "admin/admin", and for each of them use the "Account > Password" menu to change the password.
 
 ### Improved remember-me mechanism
@@ -89,16 +89,16 @@ security:
         enabled: false
     oauth2:
         client:
-            access-token-uri: http://localhost:9080/auth/realms/jhipster/protocol/openid-connect/token
-            user-authorization-uri: http://localhost:9080/auth/realms/jhipster/protocol/openid-connect/auth
+            access-token-uri: http://localhost:9080/auth/realms/bpmlabs/protocol/openid-connect/token
+            user-authorization-uri: http://localhost:9080/auth/realms/bpmlabs/protocol/openid-connect/auth
             client-id: web_app
             client-secret: web_app
             client-authentication-scheme: form
             scope: openid profile email
         resource:
             filter-order: 3
-            user-info-uri: http://localhost:9080/auth/realms/jhipster/protocol/openid-connect/userinfo
-            token-info-uri: http://localhost:9080/auth/realms/jhipster/protocol/openid-connect/token/introspect
+            user-info-uri: http://localhost:9080/auth/realms/bpmlabs/protocol/openid-connect/userinfo
+            token-info-uri: http://localhost:9080/auth/realms/bpmlabs/protocol/openid-connect/token/introspect
             prefer-token-info: false
 ```
 
@@ -132,7 +132,7 @@ security:
             prefer-token-info: false
 ```
 
-**NOTE:** If you're using microservices with JHipster 4.14.0 (or previous), you'll need to replace `security.oauth2.resource.jwt.key-uri` with  `security.oauth2.resource.jwk.key-set-uri` and set the value to  `https://{yourOktaDomain}.com/oauth2/default/v1/keys`. See [jhipster/generator-jhipster#7116](https://github.com/jhipster/generator-jhipster/issues/7116) for more information.
+**NOTE:** If you're using microservices with JHipster 4.14.0 (or previous), you'll need to replace `security.oauth2.resource.jwt.key-uri` with  `security.oauth2.resource.jwk.key-set-uri` and set the value to  `https://{yourOktaDomain}.com/oauth2/default/v1/keys`. See [jhipster/generator-jhipster#7116](https://github.com/bpmlabs/generator-jhipster/issues/7116) for more information.
 
 Create an OIDC App in Okta to get a `{client-id}` and `{client-secret}`. To do this, log in to your Okta Developer account and navigate to **Applications** > **Add Application**. Click **Web** and click the **Next** button. Give the app a name you’ll remember, and specify `http://localhost:8080` as a Base URI and `http://localhost:8080/login` as a Login Redirect URI. Click **Done** and copy the client ID and secret into your `application.yml` file.
 
@@ -140,7 +140,7 @@ Create a `ROLE_ADMIN` and `ROLE_USER` group (**Users** > **Groups** > **Add Grou
 
 **NOTE:** If you want to use Okta all the time (instead of Keycloak), modify JHipster’s Protractor tests to use this account when running. Do this by changing the credentials in `src/test/javascript/e2e/account/account.spec.ts` and `src/test/javascript/e2e/admin/administration.spec.ts`.
 
-After making these changes, you should be good to go! If you have any issues, please post them to [Stack Overflow](https://stackoverflow.com/questions/tagged/jhipster). Make sure to tag your question with "jhipster" and "okta".
+After making these changes, you should be good to go! If you have any issues, please post them to [Stack Overflow](https://stackoverflow.com/questions/tagged/bpmlabs). Make sure to tag your question with "jhipster" and "okta".
 
 You can also use environment variables to override the defaults. For example:
 

@@ -11,7 +11,7 @@ JHipster release 1.1.0
 What's new
 ----------
 
-This release comes with [several enhancements and bug fixes](https://github.com/jhipster/generator-jhipster/issues?q=milestone%3A1.1+is%3Aclosed).
+This release comes with [several enhancements and bug fixes](https://github.com/bpmlabs/generator-jhipster/issues?q=milestone%3A1.1+is%3Aclosed).
 
 Most importantly:
 
@@ -40,5 +40,5 @@ Help and bugs
 If you find any issue with this release, don't hesitate to:
 
 - Contact [@java_hipster](https://twitter.com/java_hipster) on Twitter
-- Add a bug on our [bug tracker](https://github.com/jhipster/generator-jhipster/issues?state=open)
-- Post a question on [Stack Overflow](http://stackoverflow.com/tags/jhipster/info)
+- Add a bug on our [bug tracker](https://github.com/bpmlabs/generator-jhipster/issues?state=open)
+- Post a question on [Stack Overflow](http://stackoverflow.com/tags/bpmlabs/info)

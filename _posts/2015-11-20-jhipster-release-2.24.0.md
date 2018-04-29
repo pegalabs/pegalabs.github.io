@@ -24,12 +24,12 @@ JHipster has migrated to the newly-released stable version of Spring Boot 1.3.0,
 
 ## The JHipster "devbox" is now available
 
-The [JHipster devbox](https://github.com/jhipster/jhipster-devbox) is now available! It is a virtualized development environment with JHipster and many other useful tools already installed.
+The [JHipster devbox](https://github.com/bpmlabs/bpmlabs-devbox) is now available! It is a virtualized development environment with JHipster and many other useful tools already installed.
 
 Closed tickets
 ------------
 
-As always, __[you can check all the closed tickets here](https://github.com/jhipster/generator-jhipster/issues?q=milestone%3A2.24.0+is%3Aclosed)__.
+As always, __[you can check all the closed tickets here](https://github.com/bpmlabs/generator-jhipster/issues?q=milestone%3A2.24.0+is%3Aclosed)__.
 
 How to upgrade
 ------------
@@ -58,5 +58,5 @@ Help and bugs
 If you find any issue with this release, don't hesitate to:
 
 - Contact [@java_hipster](https://twitter.com/java_hipster) on Twitter
-- Add a bug on our [bug tracker](https://github.com/jhipster/generator-jhipster/issues?state=open)
-- Post a question on [Stack Overflow](http://stackoverflow.com/tags/jhipster/info)
+- Add a bug on our [bug tracker](https://github.com/bpmlabs/generator-jhipster/issues?state=open)
+- Post a question on [Stack Overflow](http://stackoverflow.com/tags/bpmlabs/info)

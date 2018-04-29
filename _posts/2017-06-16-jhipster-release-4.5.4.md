@@ -15,21 +15,21 @@ This release has many minor bugs corrected, and some libraries upgrades.
 
 It was triggered because of a [https://npms.io/](https://npms.io/) outage, and this service is used by our marketplace (so it caused errors when using the marketplace).
 
-This issue is tracked by [#5934](https://github.com/jhipster/generator-jhipster/issues/5934) but we had many duplicates. As a related note, we had a big increase this week in GitHub tickets not following our [guidelines](https://github.com/jhipster/generator-jhipster/blob/master/CONTRIBUTING.md): if you need help, please read those guidelines, and don't make the whole team lose time.
+This issue is tracked by [#5934](https://github.com/bpmlabs/generator-jhipster/issues/5934) but we had many duplicates. As a related note, we had a big increase this week in GitHub tickets not following our [guidelines](https://github.com/bpmlabs/generator-jhipster/blob/master/CONTRIBUTING.md): if you need help, please read those guidelines, and don't make the whole team lose time.
 
 Closed tickets and merged pull requests
 ------------
-As always, __[you can check all closed tickets and merged pull requests here](https://github.com/jhipster/generator-jhipster/issues?q=milestone%3A4.5.4+is%3Aclosed)__.
+As always, __[you can check all closed tickets and merged pull requests here](https://github.com/bpmlabs/generator-jhipster/issues?q=milestone%3A4.5.4+is%3Aclosed)__.
 
 How to upgrade
 ------------
 
 **Automatic upgrade**
 
-WARNING we have many reports that automatic upgrade do not work well, see [#5883](https://github.com/jhipster/generator-jhipster/issues/5883). This depends on your specific configuration, so if you have trouble with this:
+WARNING we have many reports that automatic upgrade do not work well, see [#5883](https://github.com/bpmlabs/generator-jhipster/issues/5883). This depends on your specific configuration, so if you have trouble with this:
 
 - You can still do a "manual upgrade" (see below)
-- If you find anything helpful for us, please send us comments on ticket [#5883](https://github.com/jhipster/generator-jhipster/issues/5883)
+- If you find anything helpful for us, please send us comments on ticket [#5883](https://github.com/bpmlabs/generator-jhipster/issues/5883)
 - If you have time and want to help, don't hesitate to contribute on this part!
 
 For an automatic upgrade, use the [JHipster upgrade sub-generator]({{ site.url }}/upgrading-an-application/) on an existing application:
@@ -76,8 +76,8 @@ Help and bugs
 
 If you find any issue with this release, don't hesitate to:
 
-- Add a bug on our [bug tracker](https://github.com/jhipster/generator-jhipster/issues?state=open)
-- Post a question on [Stack Overflow](http://stackoverflow.com/tags/jhipster/info)
+- Add a bug on our [bug tracker](https://github.com/bpmlabs/generator-jhipster/issues?state=open)
+- Post a question on [Stack Overflow](http://stackoverflow.com/tags/bpmlabs/info)
 
 If the issue you have is an urgent bug or security issue, please:
 

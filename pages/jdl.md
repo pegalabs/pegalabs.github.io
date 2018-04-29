@@ -12,16 +12,16 @@ sitemap:
 
 The JDL is a JHipster specific domain language where we have added the possibility to describe all your entities and their relationships in a single file (or more than one) with a simple and user-friendly syntax.
 
-You can use our online [JDL-Studio](https://start.jhipster.tech/jdl-studio/) IDE to create JDL and its UML visualization. You can create and export or share the URL of your JDL model as well.
+You can use our online [JDL-Studio](https://bpmlabs.github.io/jdl-studio/) IDE to create JDL and its UML visualization. You can create and export or share the URL of your JDL model as well.
 
-Once you have a generated project (either existing one or generated with `jhipster` command line), you can generate entities from a JDL file using the `import-jdl` sub-generator, by running `jhipster import-jdl your-jdl-file.jh` (make sure to execute this command under your JHipster project). You can also generate entities and export them as a JDL file using [JHipster UML]({{ site.url }}/jhipster-uml/), by running `jhipster-uml your-xmi-file.xmi --to-jdl` from the root of the generated JHipster application. To learn more about JHipster UML, and install it, go to the [JHipster UML documentation]({{ site.url }}/jhipster-uml/).
+Once you have a generated project (either existing one or generated with `jhipster` command line), you can generate entities from a JDL file using the `import-jdl` sub-generator, by running `jhipster import-jdl your-jdl-file.jh` (make sure to execute this command under your JHipster project). You can also generate entities and export them as a JDL file using [JHipster UML]({{ site.url }}/bpmlabs-uml/), by running `jhipster-uml your-xmi-file.xmi --to-jdl` from the root of the generated JHipster application. To learn more about JHipster UML, and install it, go to the [JHipster UML documentation]({{ site.url }}/bpmlabs-uml/).
 
 This can be used as a replacement to using the [entity sub-generator]({{ site.url }}/creating-an-entity/). The idea is that it is much easier to [manage relationships]({{ site.url }}/managing-relationships/) using a visual tool than with the classical Yeoman questions and answers.
 
-The JDL project is [available on GitHub](https://github.com/jhipster/jhipster-core/), it is an Open Source project like JHipster (Apache 2.0 License). It can also be used as a node library to do JDL parsing.
+The JDL project is [available on GitHub](https://github.com/bpmlabs/bpmlabs-core/), it is an Open Source project like JHipster (Apache 2.0 License). It can also be used as a node library to do JDL parsing.
 
-_If you like the JHipster Domain Language, don't forget to give the project a star on [GitHub](https://github.com/jhipster/jhipster-core/)!_
-_If you like the JDL Studio don't forget to give the project a star on [GitHub](https://github.com/jhipster/jdl-studio/)!_
+_If you like the JHipster Domain Language, don't forget to give the project a star on [GitHub](https://github.com/bpmlabs/bpmlabs-core/)!_
+_If you like the JDL Studio don't forget to give the project a star on [GitHub](https://github.com/bpmlabs/jdl-studio/)!_
 
 Here is the JDL documentation:
 
@@ -49,7 +49,7 @@ Here is the JDL documentation:
 
 # <a name="sample"></a> JDL Sample
 
-The Oracle "Human Resources" sample application has been translated into JDL, and is available [here](https://github.com/jhipster/jhipster-core/blob/master/lib/dsl/example.jh). The same application is loaded by default in [JDL-Studio](https://start.jhipster.tech/jdl-studio/) as well.
+The Oracle "Human Resources" sample application has been translated into JDL, and is available [here](https://github.com/bpmlabs/bpmlabs-core/blob/master/lib/dsl/example.jh). The same application is loaded by default in [JDL-Studio](https://bpmlabs.github.io/jdl-studio/) as well.
 
 ## <a name="howtojdl"></a> How to use it
 
@@ -58,7 +58,7 @@ If you want to use JHipster UML instead of the `import-jdl` sub-generator you ne
 You can then use JDL files to generate entities:
 
   - simply create a file with the extension '.jh' or '.jdl',
-  - declare your entities and relationships or create and download the file with [JDL-Studio](https://start.jhipster.tech/jdl-studio/),
+  - declare your entities and relationships or create and download the file with [JDL-Studio](https://bpmlabs.github.io/jdl-studio/),
   - in your JHipster application's root folder, run `jhipster import-jdl my_file.jdl` or `jhipster-uml my_file.jdl`.
 
 and *Voilà*, you are done!
@@ -984,12 +984,12 @@ These options take values:
 
 # <a name="issues"></a>Issues and bugs
 
-JDL is [available on GitHub](https://github.com/jhipster/jhipster-core), and follows the same [contributing guidelines as JHipster]( https://github.com/jhipster/generator-jhipster/blob/master/CONTRIBUTING.md).
+JDL is [available on GitHub](https://github.com/bpmlabs/bpmlabs-core), and follows the same [contributing guidelines as JHipster]( https://github.com/bpmlabs/generator-jhipster/blob/master/CONTRIBUTING.md).
 
 Please use our project for submitting issues and Pull Requests concerning the library itself.
 
-- [JDL issue tracker](https://github.com/jhipster/jhipster-core/issues)
-- [JDL Pull Requests](https://github.com/jhipster/jhipster-core/pulls)
+- [JDL issue tracker](https://github.com/bpmlabs/bpmlabs-core/issues)
+- [JDL Pull Requests](https://github.com/bpmlabs/bpmlabs-core/pulls)
 
 When submitting anything, you must be as precise as possible:  
   - **One posted issue must only have one problem** (or one demand/question);  

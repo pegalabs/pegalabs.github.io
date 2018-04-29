@@ -20,9 +20,9 @@ The highlights of this release are:
 
 We are currently preparing our 2.0 release, which is why we are cleaning up the generator. This new release is mostly a re-work of our AngularJS front-end to make it more modular, so you can use JHipster on bigger projects. It is inspired by [Angular Fullstack](https://github.com/DaftMonk/generator-angular-fullstack), which looks to us to have the best front-end architecture.
 
-Feel free to have a look at [at our 2.0 branch](https://github.com/jhipster/generator-jhipster/tree/v2.0) and send us your comments!
+Feel free to have a look at [at our 2.0 branch](https://github.com/bpmlabs/generator-jhipster/tree/v2.0) and send us your comments!
 
-And as always, __[you can check all the closed tickets here](https://github.com/jhipster/generator-jhipster/issues?q=milestone%3A1.9.0+is%3Aclosed)__.
+And as always, __[you can check all the closed tickets here](https://github.com/bpmlabs/generator-jhipster/issues?q=milestone%3A1.9.0+is%3Aclosed)__.
 
 How to upgrade
 ------------
@@ -45,5 +45,5 @@ Help and bugs
 If you find any issue with this release, don't hesitate to:
 
 - Contact [@java_hipster](https://twitter.com/java_hipster) on Twitter
-- Add a bug on our [bug tracker](https://github.com/jhipster/generator-jhipster/issues?state=open)
-- Post a question on [Stack Overflow](http://stackoverflow.com/tags/jhipster/info)
+- Add a bug on our [bug tracker](https://github.com/bpmlabs/generator-jhipster/issues?state=open)
+- Post a question on [Stack Overflow](http://stackoverflow.com/tags/bpmlabs/info)

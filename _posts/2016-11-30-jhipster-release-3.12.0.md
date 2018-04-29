@@ -19,25 +19,25 @@ Here are some details on this update:
 - This forced us to upgrade Liquibase, in fact support for Hibernate 5 in Liquibase was done for us!!
 - This allowed us to upgrade to Ehcache 3, the new version of Ehcache
 - This also triggered an upgrade in our Hazelcast code
-- Most of the work was done in [#4454](https://github.com/jhipster/generator-jhipster/pull/4454) by [Henri Tremblay](https://twitter.com/henri_tremblay).
+- Most of the work was done in [#4454](https://github.com/bpmlabs/generator-jhipster/pull/4454) by [Henri Tremblay](https://twitter.com/henri_tremblay).
 
 Other important features and bug fixes are:
 
-- Upgrade Spring Cloud to Brixton SR7 [#4576](https://github.com/jhipster/generator-jhipster/pull/4576)
-- Upgrade to Hibernate Validator 5.3.3.Final [#4541](https://github.com/jhipster/generator-jhipster/pull/4541)
-- Upgrade to MapStruct 1.1.0.Final [#4539](https://github.com/jhipster/generator-jhipster/pull/4539)
-- Remove jhipster from the URL under the management part [#4477](https://github.com/jhipster/generator-jhipster/pull/4477)
-- Vietnamese [#4486](https://github.com/jhipster/generator-jhipster/pull/4486) and Serbian [#4572](https://github.com/jhipster/generator-jhipster/pull/4572) languages support
-- Only use the JHipsterProperties to generate the baseURL for sending emails [#4507](https://github.com/jhipster/generator-jhipster/issues/4507)
-- Get microservice alert and error headers from gateway [#4522](https://github.com/jhipster/generator-jhipster/pull/4522)
-- Jenkinsfile: report tests results [#4484](https://github.com/jhipster/generator-jhipster/pull/4484)
-- Search thrash button doesn't show when entity doesn't have pagination [#4480](https://github.com/jhipster/generator-jhipster/issues/4480)
-- Support for long file names on Windows with Gradle - [#4323](https://github.com/jhipster/generator-jhipster/issues/4323)
+- Upgrade Spring Cloud to Brixton SR7 [#4576](https://github.com/bpmlabs/generator-jhipster/pull/4576)
+- Upgrade to Hibernate Validator 5.3.3.Final [#4541](https://github.com/bpmlabs/generator-jhipster/pull/4541)
+- Upgrade to MapStruct 1.1.0.Final [#4539](https://github.com/bpmlabs/generator-jhipster/pull/4539)
+- Remove jhipster from the URL under the management part [#4477](https://github.com/bpmlabs/generator-jhipster/pull/4477)
+- Vietnamese [#4486](https://github.com/bpmlabs/generator-jhipster/pull/4486) and Serbian [#4572](https://github.com/bpmlabs/generator-jhipster/pull/4572) languages support
+- Only use the JHipsterProperties to generate the baseURL for sending emails [#4507](https://github.com/bpmlabs/generator-jhipster/issues/4507)
+- Get microservice alert and error headers from gateway [#4522](https://github.com/bpmlabs/generator-jhipster/pull/4522)
+- Jenkinsfile: report tests results [#4484](https://github.com/bpmlabs/generator-jhipster/pull/4484)
+- Search thrash button doesn't show when entity doesn't have pagination [#4480](https://github.com/bpmlabs/generator-jhipster/issues/4480)
+- Support for long file names on Windows with Gradle - [#4323](https://github.com/bpmlabs/generator-jhipster/issues/4323)
 
 
 Closed tickets and merged pull requests
 ------------
-As always, __[you can check all closed tickets and merged pull requests here](https://github.com/jhipster/generator-jhipster/issues?q=milestone%3A3.12.0+is%3Aclosed)__.
+As always, __[you can check all closed tickets and merged pull requests here](https://github.com/bpmlabs/generator-jhipster/issues?q=milestone%3A3.12.0+is%3Aclosed)__.
 
 How to upgrade
 ------------
@@ -78,8 +78,8 @@ Help and bugs
 
 If you find any issue with this release, don't hesitate to:
 
-- Add a bug on our [bug tracker](https://github.com/jhipster/generator-jhipster/issues?state=open)
-- Post a question on [Stack Overflow](http://stackoverflow.com/tags/jhipster/info)
+- Add a bug on our [bug tracker](https://github.com/bpmlabs/generator-jhipster/issues?state=open)
+- Post a question on [Stack Overflow](http://stackoverflow.com/tags/bpmlabs/info)
 
 If the issue you have is an urgent bug or security issue, please:
 

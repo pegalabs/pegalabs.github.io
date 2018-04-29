@@ -22,7 +22,7 @@ This is a 2.8.0 version, and not 2.7.1, to mark that we have made one big change
 
 This should normally not have any consequences to existing applications (thanks to JPA that adds a mapping layer on top of the database!), but it can be surprising to existing users.
 
-This follows the discussion from [#1278](https://github.com/jhipster/generator-jhipster/issues/1278), as:
+This follows the discussion from [#1278](https://github.com/bpmlabs/generator-jhipster/issues/1278), as:
 
 - Previously, all tables in JHipster where prefixed with 'T\_'. This was only because [Julien Dubois](https://twitter.com/juliendubois) is very old, and learned programming using the Hungarian notation. 20 years ago, without any syntax highlighting, he could easily know if he was using a table (prefixed by 'T\_') or a view (prefixed by 'V\_'). Of course using this notation is totally non-hipster, so we decided to remove it.
 - We now check for reserved keywords when an entity is being generated: you can't use Java, MySQL, PostgreSQL or Cassandra reserved keywords. We do not check MongoDB reserved keywords yet, because we didn't find a good list of keywords, but that should of course be added later.
@@ -33,7 +33,7 @@ This follows the discussion from [#1278](https://github.com/jhipster/generator-j
 
 If those choices do not suit you, don't hesitate to send us comments, and remember that all this can be easily changed in your JPA mapping!
 
-And as always, __[you can check all the closed tickets here](https://github.com/jhipster/generator-jhipster/issues?q=milestone%3A2.8.0+is%3Aclosed)__.
+And as always, __[you can check all the closed tickets here](https://github.com/bpmlabs/generator-jhipster/issues?q=milestone%3A2.8.0+is%3Aclosed)__.
 
 How to upgrade
 ------------
@@ -62,5 +62,5 @@ Help and bugs
 If you find any issue with this release, don't hesitate to:
 
 - Contact [@java_hipster](https://twitter.com/java_hipster) on Twitter
-- Add a bug on our [bug tracker](https://github.com/jhipster/generator-jhipster/issues?state=open)
-- Post a question on [Stack Overflow](http://stackoverflow.com/tags/jhipster/info)
+- Add a bug on our [bug tracker](https://github.com/bpmlabs/generator-jhipster/issues?state=open)
+- Post a question on [Stack Overflow](http://stackoverflow.com/tags/bpmlabs/info)

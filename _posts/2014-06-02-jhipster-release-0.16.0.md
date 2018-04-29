@@ -15,7 +15,7 @@ JHipster 0.16.0 comes with one new major feature: [Gradle](http://www.gradle.org
 
 In case you were wondering: yes, you can use Gradle OR Maven on the backend, and Grunt OR Gulp.js on the frontend. All 4 combinations should work the same!
 
-And of course we have several bugfixes and improvements, which are listed [here](https://github.com/jhipster/generator-jhipster/issues?milestone=5&page=1&state=closed)
+And of course we have several bugfixes and improvements, which are listed [here](https://github.com/bpmlabs/generator-jhipster/issues?milestone=5&page=1&state=closed)
 
 How to upgrade
 ------------
@@ -38,5 +38,5 @@ Help and bugs
 If you find any issue with this release, don't hesitate to:
 
 - Contact [@java_hipster](https://twitter.com/java_hipster) on Twitter
-- Add a bug on our [bug tracker](https://github.com/jhipster/generator-jhipster/issues?state=open)
-- Post a question on [Stack Overflow](http://stackoverflow.com/tags/jhipster/info)
+- Add a bug on our [bug tracker](https://github.com/bpmlabs/generator-jhipster/issues?state=open)
+- Post a question on [Stack Overflow](http://stackoverflow.com/tags/bpmlabs/info)

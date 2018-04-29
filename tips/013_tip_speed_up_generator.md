@@ -59,7 +59,7 @@ cd jhipster
 Create a link to the directory `node_modules`:
 
 ```
-ln -s <your path>/jhipster-speedup/node_modules
+ln -s <your path>/bpmlabs-speedup/node_modules
 ```
 
 Generate a new project, and answer to all questions:

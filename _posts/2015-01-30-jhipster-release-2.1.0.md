@@ -28,7 +28,7 @@ __WARNING__ As our security mechanisms have changed, your .yo-rc.json files need
 
 Concerning our roadmap, we hope to have soon a working Cassandra implementation. This should be a very interesting option!
 
-And as always, __[you can check all the closed tickets here](https://github.com/jhipster/generator-jhipster/issues?q=milestone%3A2.1.0+is%3Aclosed)__.
+And as always, __[you can check all the closed tickets here](https://github.com/bpmlabs/generator-jhipster/issues?q=milestone%3A2.1.0+is%3Aclosed)__.
 
 How to upgrade
 ------------
@@ -51,5 +51,5 @@ Help and bugs
 If you find any issue with this release, don't hesitate to:
 
 - Contact [@java_hipster](https://twitter.com/java_hipster) on Twitter
-- Add a bug on our [bug tracker](https://github.com/jhipster/generator-jhipster/issues?state=open)
-- Post a question on [Stack Overflow](http://stackoverflow.com/tags/jhipster/info)
+- Add a bug on our [bug tracker](https://github.com/bpmlabs/generator-jhipster/issues?state=open)
+- Post a question on [Stack Overflow](http://stackoverflow.com/tags/bpmlabs/info)

@@ -13,10 +13,10 @@ This is a huge release, with 105 closed tickets and bug requests (yes, the last 
 
 Here are the most important ones:
 
-- Angular 5 support [#6789](https://github.com/jhipster/generator-jhipster/pull/6789)
-- MongoDB users can now use the Elasticsearch option, like JPA users [#6595](https://github.com/jhipster/generator-jhipster/pull/6595)
-- Gateways secured with OpenID Connect can now be generated without any database [#6763](https://github.com/jhipster/generator-jhipster/issues/6763)
-- Several server-side libraries upgrades, including Spring Boot 1.5.9 [#6782](https://github.com/jhipster/generator-jhipster/pull/6782)
+- Angular 5 support [#6789](https://github.com/bpmlabs/generator-jhipster/pull/6789)
+- MongoDB users can now use the Elasticsearch option, like JPA users [#6595](https://github.com/bpmlabs/generator-jhipster/pull/6595)
+- Gateways secured with OpenID Connect can now be generated without any database [#6763](https://github.com/bpmlabs/generator-jhipster/issues/6763)
+- Several server-side libraries upgrades, including Spring Boot 1.5.9 [#6782](https://github.com/bpmlabs/generator-jhipster/pull/6782)
 
 As announced in the previous release, React support is still under development: use the `--experimental` flag when running JHipster to enable the React option. Warning, this is not finished yet! Your contributions are of course welcome.
 
@@ -30,11 +30,11 @@ This is very important to keep the project growing.
 JHipster Online
 ----------
 
-[JHipster Online](https://start.jhipster.tech) has a new release, which supports Continuous Deployment. You can now generate your application, design your entities, and test everything, all from a nice Web user interface.
+[JHipster Online](https://bpmlabs.github.io) has a new release, which supports Continuous Deployment. You can now generate your application, design your entities, and test everything, all from a nice Web user interface.
 
 Closed tickets and merged pull requests
 ------------
-As always, __[you can check all closed tickets and merged pull requests here](https://github.com/jhipster/generator-jhipster/issues?q=milestone%3A4.12.0+is%3Aclosed)__.
+As always, __[you can check all closed tickets and merged pull requests here](https://github.com/bpmlabs/generator-jhipster/issues?q=milestone%3A4.12.0+is%3Aclosed)__.
 
 How to upgrade
 ------------
@@ -87,8 +87,8 @@ Help and bugs
 
 If you find any issue with this release, don't hesitate to:
 
-- Add a bug on our [bug tracker](https://github.com/jhipster/generator-jhipster/issues?state=open)
-- Post a question on [Stack Overflow](http://stackoverflow.com/tags/jhipster/info)
+- Add a bug on our [bug tracker](https://github.com/bpmlabs/generator-jhipster/issues?state=open)
+- Post a question on [Stack Overflow](http://stackoverflow.com/tags/bpmlabs/info)
 
 If the issue you have is an urgent bug or security issue, please:
 

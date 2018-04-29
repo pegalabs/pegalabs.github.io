@@ -145,7 +145,7 @@ when necessary (for instance, everytime the component is updated).
 
 Jhipster uses the [React router](https://github.com/ReactTraining/react-router) to organize the differents parts of your application.
 
-When it comes to routes that require authentication, the [react-jhipster](https://github.com/jhipster/react-jhipster) lib provides [PrivateRoute](https://github.com/jhipster/react-jhipster/blob/master/src/component/private-route.tsx). This component will simply prevent any unauthenticated user from accessing a route.
+When it comes to routes that require authentication, the [react-jhipster](https://github.com/bpmlabs/react-jhipster) lib provides [PrivateRoute](https://github.com/bpmlabs/react-jhipster/blob/master/src/component/private-route.tsx). This component will simply prevent any unauthenticated user from accessing a route.
 
 Here is an example of PrivateRoute usage:
 ``` typescript

@@ -166,7 +166,7 @@ Allow access to the endpoint in `SecurityConfiguration.java`:
 
 If you invoke the endpoint `http://localhost:8080/api/greetings/5`, you should see the messages logged to the console.
 
-You can find the full source code on [eosimosu/jhipster-kafka][6].
+You can find the full source code on [eosimosu/bpmlabs-kafka][6].
 
 
-[6]: https://github.com/eosimosu/jhipster-kafka
+[6]: https://github.com/eosimosu/bpmlabs-kafka

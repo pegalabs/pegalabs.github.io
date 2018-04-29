@@ -29,8 +29,8 @@ This page describes how to create relationships with JHipster using the standard
 
 In that case, two options are available:
 
-- [JHipster UML]({{ site.url }}/jhipster-uml/), which allows you to use an UML editor.
-- [JDL Studio](https://start.jhipster.tech/jdl-studio/), our online tool to create entities and relationships using our domain-specific language.
+- [JHipster UML]({{ site.url }}/bpmlabs-uml/), which allows you to use an UML editor.
+- [JDL Studio](https://bpmlabs.github.io/jdl-studio/), our online tool to create entities and relationships using our domain-specific language.
 
 You can generate entities with relationships from a JDL file using the `import-jdl` sub-generator, by running `jhipster import-jdl your-jdl-file.jh`.
 
@@ -146,7 +146,7 @@ A one-to-many unidirectional relationship means that the `Owner` instance can ge
 
     Owner (1) -----> (*) Car
 
-This type of relationship is not provided by default in JHipster at the moment, see [#1569](https://github.com/jhipster/generator-jhipster/issues/1569) for more information.
+This type of relationship is not provided by default in JHipster at the moment, see [#1569](https://github.com/bpmlabs/generator-jhipster/issues/1569) for more information.
 
 You have two solutions for this:
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: JHipster Registry
-permalink: /jhipster-registry/
+permalink: /bpmlabs-registry/
 sitemap:
     priority: 0.7
     lastmod: 2017-05-03T00:00:00-00:00
@@ -11,7 +11,7 @@ sitemap:
 
 ## Overview
 
-The JHipster Registry is a runtime application, provided by the JHipster team. Like the JHipster generator, it is an Open Source, Apache 2-licensed application, and its source code is available on GitHub under the JHipster organization at [jhipster/jhipster-registry](https://github.com/jhipster/jhipster-registry).
+The JHipster Registry is a runtime application, provided by the JHipster team. Like the JHipster generator, it is an Open Source, Apache 2-licensed application, and its source code is available on GitHub under the JHipster organization at [jhipster/bpmlabs-registry](https://github.com/bpmlabs/bpmlabs-registry).
 
 The JHipster Registry has three main purposes:
 
@@ -21,7 +21,7 @@ The JHipster Registry has three main purposes:
 
 All those features are packaged into one convenient application with a modern Angular-based user interface.
 
-![]({{ site.url }}/images/jhipster-registry-animation.gif)
+![]({{ site.url }}/images/bpmlabs-registry-animation.gif)
 
 ## Summary
 
@@ -40,38 +40,38 @@ The JHipster Registry uses the usual JHipster `dev` and `prod` Spring profiles, 
 As a result:
 
 - Using the `dev` profile will run the JHipster Registry with the `dev` and the `native` profiles. The `native` profile will load the Spring Cloud configuration from the filesystem, looking for the `central-config` directory, which is relative to the running directory.
-- Using the `prod` profile will run the JHipster Registry with the `prod` and the `git` profiles. The `git` profile will load the Spring Cloud configuration from a Git repository, which is by default [https://github.com/jhipster/jhipster-registry-sample-config](https://github.com/jhipster/jhipster-registry-sample-config). In a real-world usage, this repository should be changed, either by reconfiguring it in the `src/main/resources/config/bootstrap-prod.yml` file, or by reconfiguring the `spring.cloud.config.server.git.uri` Spring property.
+- Using the `prod` profile will run the JHipster Registry with the `prod` and the `git` profiles. The `git` profile will load the Spring Cloud configuration from a Git repository, which is by default [https://github.com/bpmlabs/bpmlabs-registry-sample-config](https://github.com/bpmlabs/bpmlabs-registry-sample-config). In a real-world usage, this repository should be changed, either by reconfiguring it in the `src/main/resources/config/bootstrap-prod.yml` file, or by reconfiguring the `spring.cloud.config.server.git.uri` Spring property.
 
 Once the JHipster Registry is running, you can check its configuration in the `Configuration > Cloud Config` menu. Please note that if you can't log in, it might be because the JWT signature key is not correctly set up, which is a sign that your configuration isn't good.
 
 ### Using the pre-packaged WAR file
 
-The JHipster Registry is available as an executable WAR file on our [Releases page](https://github.com/jhipster/jhipster-registry/releases).
+The JHipster Registry is available as an executable WAR file on our [Releases page](https://github.com/bpmlabs/bpmlabs-registry/releases).
 
 Download the WAR file, and run it as a usual JHipster application, using the profile you want to use (see the previous section about profiles). For example, to run it using a Spring Cloud Config configuration stored in the `central-config` directory:
 
-    ./jhipster-registry-<version>.war --security.user.password=admin --jhipster.security.authentication.jwt.secret=secret-key --spring.cloud.config.server.native.search-locations=file:./central-config
+    ./bpmlabs-registry-<version>.war --security.user.password=admin --jhipster.security.authentication.jwt.secret=secret-key --spring.cloud.config.server.native.search-locations=file:./central-config
 
 Note that it is important to provide a JWT secret key to the registry on startup, either via the `JHIPSTER_SECURITY_AUTHENTICATION_JWT_SECRET` environment variable or with arguments as shown above. Another possible way is to set this value in the `application.yml` file of your centralized configuration source (which is loaded on startup by all your applications including the registry).
 
 Similarly, to run the registry with the `prod` profile, adapt the arguments to your setup, for example:
 
-    ./jhipster-registry-<version>.war --spring.profiles.active=prod --security.user.password=admin --jhipster.security.authentication.jwt.secret=secret-key --spring.cloud.config.server.git.uri=https://github.com/jhipster/jhipster-registry-sample-config
+    ./bpmlabs-registry-<version>.war --spring.profiles.active=prod --security.user.password=admin --jhipster.security.authentication.jwt.secret=secret-key --spring.cloud.config.server.git.uri=https://github.com/bpmlabs/bpmlabs-registry-sample-config
 
 ### Building from source
 
-The JHipster Registry can be cloned/forked/downloaded directly from [jhipster/jhipster-registry](https://github.com/jhipster/jhipster-registry). As the JHipster Registry is also a JHipster-generated application, you can run it like any other JHipster application:
+The JHipster Registry can be cloned/forked/downloaded directly from [jhipster/bpmlabs-registry](https://github.com/bpmlabs/bpmlabs-registry). As the JHipster Registry is also a JHipster-generated application, you can run it like any other JHipster application:
 
 - run it in development with `./mvnw` (for the Java server) and `yarn start` (for managing the front-end), it will use by default the `dev` profile and it will be available at [http://127.0.0.1:8761/](http://127.0.0.1:8761/).
-- use `./mvnw -Pprod package` to package it in production, and generate the usual JHipster executable WAR file. You can then run the WAR file using the `dev` or `prod` Spring profile, for example: `./jhipster-registry-<version>.war --spring.profiles.active=prod`
+- use `./mvnw -Pprod package` to package it in production, and generate the usual JHipster executable WAR file. You can then run the WAR file using the `dev` or `prod` Spring profile, for example: `./bpmlabs-registry-<version>.war --spring.profiles.active=prod`
 
-Please note that to use the `native` profile, you need to have a `central-config` directory with your configuration, so if you run `./jhipster-registry-<version>.war --spring.profiles.active=dev`, you need to have that directory set up.
+Please note that to use the `native` profile, you need to have a `central-config` directory with your configuration, so if you run `./bpmlabs-registry-<version>.war --spring.profiles.active=dev`, you need to have that directory set up.
 
 ### Using Docker
 
-If you'd rather run the JHipster Registry from a Docker image, it is available on Docker Hub at [jhipster/jhipster-registry](https://hub.docker.com/r/jhipster/jhipster-registry/). A docker-compose file to easily run this image is already present within each microservice `src/main/docker` directory:
+If you'd rather run the JHipster Registry from a Docker image, it is available on Docker Hub at [jhipster/bpmlabs-registry](https://hub.docker.com/r/bpmlabs/bpmlabs-registry/). A docker-compose file to easily run this image is already present within each microservice `src/main/docker` directory:
 
-- run `docker-compose -f src/main/docker/jhipster-registry.yml up` to start the JHipster Registry. It will be available on port `8761` of your Docker host, so if it runs on your machine it should be at [http://127.0.0.1:8761/](http://127.0.0.1:8761/).
+- run `docker-compose -f src/main/docker/bpmlabs-registry.yml up` to start the JHipster Registry. It will be available on port `8761` of your Docker host, so if it runs on your machine it should be at [http://127.0.0.1:8761/](http://127.0.0.1:8761/).
 
 Please read our [Docker Compose documentation]({{ site.url }}/docker-compose/) for more information on using the JHipster Registry with Docker Compose.
 
@@ -83,7 +83,7 @@ Please read [the "microservices in production" documentation]({{ site.url }}/mic
 
 ## <a name="eureka"></a> Service discovery with Eureka
 
-![]({{ site.url }}/images/jhipster-registry-eureka.png)
+![]({{ site.url }}/images/bpmlabs-registry-eureka.png)
 
 The JHipster Registry is a [Netflix Eureka server](https://github.com/Netflix/eureka), that provides service discovery for all applications.
 
@@ -92,7 +92,7 @@ The JHipster Registry is a [Netflix Eureka server](https://github.com/Netflix/eu
 
 ## <a name="spring-cloud-config"></a> Application configuration with Spring Cloud Config
 
-![]({{ site.url }}/images/jhipster-registry-spring-cloud-config.png)
+![]({{ site.url }}/images/bpmlabs-registry-spring-cloud-config.png)
 
 The JHipster Registry is a [Spring Config Server](http://cloud.spring.io/spring-cloud-config/spring-cloud-config.html): when applications are launched they will first connect to the JHipster Registry to get their configuration. This is true for both gateways and microservices.
 
@@ -135,7 +135,7 @@ In order to access sensitive information from the applications, the JHipster Reg
 
 ### The metrics dashboard
 
-![]({{ site.url }}/images/jhipster-registry-metrics.png)
+![]({{ site.url }}/images/bpmlabs-registry-metrics.png)
 
 The metrics dashboard uses Dropwizard metrics to give a detailed view of the application performance.
 
@@ -150,19 +150,19 @@ By clicking on the eye next to the JVM thread metrics, you will get a stacktrace
 
 ### The health dashboard
 
-![]({{ site.url }}/images/jhipster-registry-health.png)
+![]({{ site.url }}/images/bpmlabs-registry-health.png)
 
 The health dashboard uses Spring Boot Actuator's health endpoint to give health information on various parts of the application. Many health checks are provided out-of-the-box by Spring Boot Actuator, and it's also very easy to add application-specific health checks.
 
 ### The configuration dashboard
 
-![]({{ site.url }}/images/jhipster-registry-configuration.png)
+![]({{ site.url }}/images/bpmlabs-registry-configuration.png)
 
 The configuration dashboard uses Spring Boot Actuator's configuration endpoint to give a full view of the Spring configuration of the current application.
 
 ### The logs dashboard
 
-![]({{ site.url }}/images/jhipster-registry-logs.png)
+![]({{ site.url }}/images/bpmlabs-registry-logs.png)
 
 The logs dashboard allows to manage at runtime the Logback configuration of the running application. Changing the log level of a Java package is as simple as clicking on a button, which is very convenient both in development and in production.
 

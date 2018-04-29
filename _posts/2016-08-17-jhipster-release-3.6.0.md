@@ -9,12 +9,12 @@ JHipster release 3.6.0
 What's new
 ----------
 
-This is a very big release, with some important changes (but which don't break too much code, so this isn't a major release), some incredible new features, and the usual bug fixes and upgrades. In total, this is [121 closed tickets and PRs](https://github.com/jhipster/generator-jhipster/issues?q=milestone%3A3.6.0+is%3Aclosed), which is  better than most commerical vendors do in the middle of August!
+This is a very big release, with some important changes (but which don't break too much code, so this isn't a major release), some incredible new features, and the usual bug fixes and upgrades. In total, this is [121 closed tickets and PRs](https://github.com/bpmlabs/generator-jhipster/issues?q=milestone%3A3.6.0+is%3Aclosed), which is  better than most commerical vendors do in the middle of August!
 
 Important change: DTOs refactoring
 ------------
 
-DTOs where refactored, see [#3175](https://github.com/jhipster/generator-jhipster/issues/3175). This also solved [Hibernate lazy-loading issues](https://github.com/jhipster/generator-jhipster/issues/3790).
+DTOs where refactored, see [#3175](https://github.com/bpmlabs/generator-jhipster/issues/3175). This also solved [Hibernate lazy-loading issues](https://github.com/bpmlabs/generator-jhipster/issues/3790).
 
 Please remember that DTOs were in BETA, and are still in BETA (but should be "stable" pretty soon now), so it's normal that we modify them.
 
@@ -37,7 +37,7 @@ Some usual questions and answers on those changes:
 Important change: Fluent setters
 ------------
 
-After much discussion, JHipster now [generates fluent setters on your entities](https://github.com/jhipster/generator-jhipster/pull/3751).
+After much discussion, JHipster now [generates fluent setters on your entities](https://github.com/bpmlabs/generator-jhipster/pull/3751).
 
 As you can check in the ticket linked above, this was validated by the Hibernate team, and we did a public vote where the choice for fluent setters was very clear.
 
@@ -46,7 +46,7 @@ You won't have to refactor your current application as we still generate the "no
 Kubernetes support
 -------------
 
-This is probably our biggest new feature, [Kubernetes support has been merged](https://github.com/jhipster/generator-jhipster/pull/3747)! We already have some [initial documentation]({{ site.url }}/kubernetes/), but this is still a very early release: don't hesitate to test, submit bugs, help documenting...
+This is probably our biggest new feature, [Kubernetes support has been merged](https://github.com/bpmlabs/generator-jhipster/pull/3747)! We already have some [initial documentation]({{ site.url }}/kubernetes/), but this is still a very early release: don't hesitate to test, submit bugs, help documenting...
 
 New "info" sub-generator
 -------------
@@ -60,12 +60,12 @@ Remember to use it when submiting a bug the project!
 Upgrades
 -------------
 
-- Upgrade to Spring Boot 1.4 [#3900](https://github.com/jhipster/generator-jhipster/pull/3900), which also upgraded the project to the latest Tomcat release (and caused issue [#3995](https://github.com/jhipster/generator-jhipster/issues/3995))
-- Upgrade to the latest NPM and Bower dependencies [#3888](https://github.com/jhipster/generator-jhipster/pull/3888)
+- Upgrade to Spring Boot 1.4 [#3900](https://github.com/bpmlabs/generator-jhipster/pull/3900), which also upgraded the project to the latest Tomcat release (and caused issue [#3995](https://github.com/bpmlabs/generator-jhipster/issues/3995))
+- Upgrade to the latest NPM and Bower dependencies [#3888](https://github.com/bpmlabs/generator-jhipster/pull/3888)
 
 Closed tickets
 ------------
-As always, __[you can check all closed tickets here](https://github.com/jhipster/generator-jhipster/issues?q=milestone%3A3.6.0+is%3Aclosed)__.
+As always, __[you can check all closed tickets here](https://github.com/bpmlabs/generator-jhipster/issues?q=milestone%3A3.6.0+is%3Aclosed)__.
 
 How to upgrade
 ------------
@@ -106,8 +106,8 @@ Help and bugs
 
 If you find any issue with this release, don't hesitate to:
 
-- Add a bug on our [bug tracker](https://github.com/jhipster/generator-jhipster/issues?state=open)
-- Post a question on [Stack Overflow](http://stackoverflow.com/tags/jhipster/info)
+- Add a bug on our [bug tracker](https://github.com/bpmlabs/generator-jhipster/issues?state=open)
+- Post a question on [Stack Overflow](http://stackoverflow.com/tags/bpmlabs/info)
 
 If the issue you have is an urgent bug or security issue, please:
 

@@ -11,11 +11,11 @@ What's new
 
 This is the fifth patch release for JHipster 4.0.0.
 
-The main reason of this release is to add [this fix](https://github.com/jhipster/generator-jhipster/commit/5727c318b865d826adf377ba95909becf00f5395) which would made "prod" builds with JHipster v4.0.4 fail.
+The main reason of this release is to add [this fix](https://github.com/bpmlabs/generator-jhipster/commit/5727c318b865d826adf377ba95909becf00f5395) which would made "prod" builds with JHipster v4.0.4 fail.
 
 Closed tickets and merged pull requests
 ------------
-As always, __[you can check all closed tickets and merged pull requests here](https://github.com/jhipster/generator-jhipster/issues?q=milestone%3A4.0.5+is%3Aclosed)__.
+As always, __[you can check all closed tickets and merged pull requests here](https://github.com/bpmlabs/generator-jhipster/issues?q=milestone%3A4.0.5+is%3Aclosed)__.
 
 How to upgrade
 ------------
@@ -60,8 +60,8 @@ Help and bugs
 
 If you find any issue with this release, don't hesitate to:
 
-- Add a bug on our [bug tracker](https://github.com/jhipster/generator-jhipster/issues?state=open)
-- Post a question on [Stack Overflow](http://stackoverflow.com/tags/jhipster/info)
+- Add a bug on our [bug tracker](https://github.com/bpmlabs/generator-jhipster/issues?state=open)
+- Post a question on [Stack Overflow](http://stackoverflow.com/tags/bpmlabs/info)
 
 If the issue you have is an urgent bug or security issue, please:
 

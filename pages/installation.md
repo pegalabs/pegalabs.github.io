@@ -15,16 +15,16 @@ sitemap:
 
 We provide 6 ways of working with JHipster. If in doubt, choose our 2nd option, "Local installation with Yarn":
 
-*   [JHipster Online](https://start.jhipster.tech/) is a simple way to generate an application without installing JHipster in the first place.
+*   [JHipster Online](https://bpmlabs.github.io/) is a simple way to generate an application without installing JHipster in the first place.
 *   "Local installation with Yarn" is the classical way of working with JHipster. Everything is installed on your machine, which can be a little complex to set up, but that's how most people usually work. In case of doubt, choose this installation.
 *   "Local installation with NPM" is the same as classical "local installation with Yarn", but using NPM instead of [Yarn](https://yarnpkg.com/)
 *   "Installation with a package manager" is only available for Mac OS X and Windows. This is a very simple installation method, if you use a package manager, but it is still in BETA.
-*   The Vagrant-based "[development box](https://github.com/jhipster/jhipster-devbox)", with all tools already set up in a Ubuntu-based virtual machine.
+*   The Vagrant-based "[development box](https://github.com/bpmlabs/bpmlabs-devbox)", with all tools already set up in a Ubuntu-based virtual machine.
 *   The "[Docker](https://www.docker.io/)" container, which brings you a lightweight container with JHipster installed.
 
 ## JHipster Online (for users wanting a simplified way to run JHipster)
 
-[JHipster Online](https://start.jhipster.tech/) allows you to easily generate JHipster applications, without having to install JHipster.
+[JHipster Online](https://bpmlabs.github.io/) allows you to easily generate JHipster applications, without having to install JHipster.
 
 This is intended for people trying JHipster for the first time, or who just want to have a look at what JHipster provides.
 
@@ -60,7 +60,7 @@ If you have problems using Yarn globally, be sure to have `$HOME/.config/yarn/gl
 On Mac or Linux: ```export PATH="$PATH:`yarn global bin`:$HOME/.config/yarn/global/node_modules/.bin"```
 
 JHipster uses [Yeoman](http://yeoman.io/) for code generation.
-To find more information, tips and help, please have a look at [the Yeoman "getting starting" guide](http://yeoman.io/learning/index.html) and at the [Yarn documentation](https://yarnpkg.com/) before [submitting a bug](https://github.com/jhipster/generator-jhipster/issues?state=open).
+To find more information, tips and help, please have a look at [the Yeoman "getting starting" guide](http://yeoman.io/learning/index.html) and at the [Yarn documentation](https://yarnpkg.com/) before [submitting a bug](https://github.com/bpmlabs/generator-jhipster/issues?state=open).
 
 ## Local installation with NPM (alternative to Yarn)
 
@@ -75,11 +75,11 @@ You can find more information in the [NPM documentation](https://docs.npmjs.com/
 
 ## Installation with a package manager
 
-__Please note this is a BETA feature!__ If you selected this installation, don't hesitate to send us a [bug report](https://github.com/jhipster/generator-jhipster/issues) or feedback on [@java_hipster](https://twitter.com/java_hipster).
+__Please note this is a BETA feature!__ If you selected this installation, don't hesitate to send us a [bug report](https://github.com/bpmlabs/generator-jhipster/issues) or feedback on [@java_hipster](https://twitter.com/java_hipster).
 
 ### Installation with Homebrew on Mac OS X
 
-JHipster provides a [Homebrew](https://brew.sh/) package, available on [http://formulae.brew.sh/formula/jhipster](http://formulae.brew.sh/formula/jhipster).
+JHipster provides a [Homebrew](https://brew.sh/) package, available on [http://formulae.brew.sh/formula/bpmlabs](http://formulae.brew.sh/formula/bpmlabs).
 
 To install JHipster (as well as Node and Yarn), just type:
 
@@ -89,7 +89,7 @@ New versions of this package are published each time a new JHipster release is c
 
 ### Installation with Chocolatey on Windows
 
-JHipster provides a [Chocolatey](https://chocolatey.org/) package, available on [https://chocolatey.org/packages/jhipster](https://chocolatey.org/packages/jhipster).
+JHipster provides a [Chocolatey](https://chocolatey.org/) package, available on [https://chocolatey.org/packages/bpmlabs](https://chocolatey.org/packages/bpmlabs).
 
 To install JHipster (as well as Node, Yarn, Yeoman, Java and Git), just type:
 
@@ -99,13 +99,13 @@ New versions of this package are published each time a new JHipster release is c
 
 ## Vagrant box installation
 
-The [JHipster development box](https://github.com/jhipster/jhipster-devbox) project gives you a virtual machine with all the necessary tools to develop your JHipster project.
+The [JHipster development box](https://github.com/bpmlabs/bpmlabs-devbox) project gives you a virtual machine with all the necessary tools to develop your JHipster project.
 
 It's an easy way to get up and running very quickly with JHipster.
 
 Besides JHipster, this virtual machine includes many development tools, as well as Docker, so you should have everything ready for working.
 
-Please go to the [JHipster development box page](https://github.com/jhipster/jhipster-devbox) for installation and configuration information.
+Please go to the [JHipster development box page](https://github.com/bpmlabs/bpmlabs-devbox) for installation and configuration information.
 
 ## Docker installation (for advanced users only)
 
@@ -113,9 +113,9 @@ _Please note: this Docker image is for running the JHipster generator inside a c
 
 ### Information
 
-JHipster has a specific [Dockerfile](https://github.com/jhipster/generator-jhipster/blob/master/Dockerfile), which provides a [Docker](https://www.docker.io/) image.
+JHipster has a specific [Dockerfile](https://github.com/bpmlabs/generator-jhipster/blob/master/Dockerfile), which provides a [Docker](https://www.docker.io/) image.
 
-It makes a Docker "Automated build" that is available on: [https://hub.docker.com/r/jhipster/jhipster/](https://hub.docker.com/r/jhipster/jhipster/)
+It makes a Docker "Automated build" that is available on: [https://hub.docker.com/r/bpmlabs/bpmlabs/](https://hub.docker.com/r/bpmlabs/bpmlabs/)
 
 This image will allow you to run JHipster inside Docker.
 
@@ -149,13 +149,13 @@ On Linux, you might need to run the `docker` command as root user if your user i
 
 Pull the latest JHipster Docker image:
 
-`docker image pull jhipster/jhipster`
+`docker image pull jhipster/bpmlabs`
 
 Pull the development JHipster Docker image:
 
-`docker image pull jhipster/jhipster:master`
+`docker image pull jhipster/bpmlabs:master`
 
-You can see all tags [here](https://hub.docker.com/r/jhipster/jhipster/tags/)
+You can see all tags [here](https://hub.docker.com/r/bpmlabs/bpmlabs/tags/)
 
 #### Run the image
 
@@ -168,14 +168,14 @@ If you are using Docker Machine on Mac or Windows, your Docker daemon has only l
 
 Create a "jhipster" folder in your home directory:
 
-`mkdir ~/jhipster`
+`mkdir ~/bpmlabs`
 
 Run the Docker image, with the following options:
 
-*   The Docker "/home/jhipster/app" folder is shared to the local "~/jhipster" folder
+*   The Docker "/home/bpmlabs/app" folder is shared to the local "~/bpmlabs" folder
 *   Forward all ports exposed by Docker (8080 for the Java application, 9000 for BrowserSync, 3001 for the BrowserSync UI)
 
-`docker container run --name jhipster -v ~/jhipster:/home/jhipster/app -v ~/.m2:/home/jhipster/.m2 -p 8080:8080 -p 9000:9000 -p 3001:3001 -d -t jhipster/jhipster`
+`docker container run --name jhipster -v ~/bpmlabs:/home/bpmlabs/app -v ~/.m2:/home/bpmlabs/.m2 -p 8080:8080 -p 9000:9000 -p 3001:3001 -d -t jhipster/bpmlabs`
 
 <div class="alert alert-info"><i>Tip: </i>
 
@@ -188,7 +188,7 @@ If you have already started the container once before, you do not need to run th
 To check that your container is running, use the command `docker container ps`:
 
     CONTAINER ID    IMAGE               COMMAND                 CREATED         STATUS          PORTS                                                       NAMES
-    4ae16c0539a3    jhipster/jhipster   "tail -f /home/jhipst"  4 seconds ago   Up 3 seconds    0.0.0.0:9000-3001->9000-3001/tcp, 0.0.0.0:8080->8080/tcp    jhipster
+    4ae16c0539a3    jhipster/bpmlabs   "tail -f /home/jhipst"  4 seconds ago   Up 3 seconds    0.0.0.0:9000-3001->9000-3001/tcp, 0.0.0.0:8080->8080/tcp    jhipster
 
 #### Common operations
 
@@ -199,8 +199,8 @@ In case you update the Docker image (rebuild or pull from the Docker hub), it's 
 
 1.  `docker container stop jhipster`
 2.  `docker container rm jhipster`
-3.  `docker image pull jhipster/jhipster`
-4.  `docker container run --name jhipster -v ~/jhipster:/home/jhipster/app -v ~/.m2:/home/jhipster/.m2 -p 8080:8080 -p 9000:9000 -p 3001:3001 -d -t jhipster/jhipster`
+3.  `docker image pull jhipster/bpmlabs`
+4.  `docker container run --name jhipster -v ~/bpmlabs:/home/bpmlabs/app -v ~/.m2:/home/bpmlabs/.m2 -p 8080:8080 -p 9000:9000 -p 3001:3001 -d -t jhipster/bpmlabs`
 
 ### Accessing the container
 
@@ -226,9 +226,9 @@ If you want to log in as "root", as the `sudo` command isn't available in Ubuntu
 
 ### Your first project
 
-You can then go to the /home/jhipster/app directory in your container, and start building your app inside Docker:
+You can then go to the /home/bpmlabs/app directory in your container, and start building your app inside Docker:
 
-`cd /home/jhipster/app`
+`cd /home/bpmlabs/app`
 
 `jhipster`
 
@@ -250,7 +250,7 @@ On your host machine, you should be able to :
 *   Get all the generated files inside your shared folder
 
 <div class="alert alert-warning"><i>Warning: </i>
-    By default, Docker is not installed inside the <code>jhipster/jhipster</code> image.
+    By default, Docker is not installed inside the <code>jhipster/bpmlabs</code> image.
     <br/>
     So you won't be able to:
     <ul>

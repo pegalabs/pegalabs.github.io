@@ -23,20 +23,20 @@ Most important bug fixes
 
 ### OAuth2 authentication
 
-OAuth2 authentication was broken when the new Spring Boot 1.3.0 devtools were selected (issue [#2291](https://github.com/jhipster/generator-jhipster/issues/2291)). So we have removed, for the moment, our `CustomUserDetails` class, which was causing the issue: discussion is still under way on how we will solve this in the long term.
+OAuth2 authentication was broken when the new Spring Boot 1.3.0 devtools were selected (issue [#2291](https://github.com/bpmlabs/generator-jhipster/issues/2291)). So we have removed, for the moment, our `CustomUserDetails` class, which was causing the issue: discussion is still under way on how we will solve this in the long term.
 
 ### Cloud Foundry deployment
 
-Deployment to Cloud Foundry was broken (issue [#2225](https://github.com/jhipster/generator-jhipster/issues/2225)), as there is an incompatibility between Spring Boot 1.3.0 and Cloud Foundry (see the Cloud Foundry issue [here](https://github.com/cloudfoundry/cli/issues/411)). For the moment we have removed the "executable" flag on our generated WAR files, and have updated the documentation accordingly (you can't run the WAR files directly with `./my_application.war`, you need to do `java -jar my_application.war`instead).
+Deployment to Cloud Foundry was broken (issue [#2225](https://github.com/bpmlabs/generator-jhipster/issues/2225)), as there is an incompatibility between Spring Boot 1.3.0 and Cloud Foundry (see the Cloud Foundry issue [here](https://github.com/cloudfoundry/cli/issues/411)). For the moment we have removed the "executable" flag on our generated WAR files, and have updated the documentation accordingly (you can't run the WAR files directly with `./my_application.war`, you need to do `java -jar my_application.war`instead).
 
 ### Wrong HTTP cache headers in production
 
-Our HTTP cache headers where wrong in production (issue [#2239](https://github.com/jhipster/generator-jhipster/issues/2239)). We have corrected then, and have now excellent performance in production back again!
+Our HTTP cache headers where wrong in production (issue [#2239](https://github.com/bpmlabs/generator-jhipster/issues/2239)). We have corrected then, and have now excellent performance in production back again!
 
 Closed tickets
 ------------
 
-As always, __[you can check all the closed tickets here](https://github.com/jhipster/generator-jhipster/issues?q=milestone%3A2.23.1+is%3Aclosed)__.
+As always, __[you can check all the closed tickets here](https://github.com/bpmlabs/generator-jhipster/issues?q=milestone%3A2.23.1+is%3Aclosed)__.
 
 How to upgrade
 ------------
@@ -65,5 +65,5 @@ Help and bugs
 If you find any issue with this release, don't hesitate to:
 
 - Contact [@java_hipster](https://twitter.com/java_hipster) on Twitter
-- Add a bug on our [bug tracker](https://github.com/jhipster/generator-jhipster/issues?state=open)
-- Post a question on [Stack Overflow](http://stackoverflow.com/tags/jhipster/info)
+- Add a bug on our [bug tracker](https://github.com/bpmlabs/generator-jhipster/issues?state=open)
+- Post a question on [Stack Overflow](http://stackoverflow.com/tags/bpmlabs/info)

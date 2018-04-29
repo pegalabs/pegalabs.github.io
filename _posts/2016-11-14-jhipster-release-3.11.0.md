@@ -13,23 +13,23 @@ What's new
 
 Here are the most important ones:
 
-- Upgrade Gradle to 3.2 - [#4472](https://github.com/jhipster/generator-jhipster/pull/4472)
-- Tests generated for ZonedDateTime entity attributes are failing - [#4373](https://github.com/jhipster/generator-jhipster/issues/4373)
-- Update to Spring Boot 1.4.2 - [#4449](https://github.com/jhipster/generator-jhipster/issues/4449)
-- Change @PostConstruct to @Before in tests - [#4435](https://github.com/jhipster/generator-jhipster/pull/4435)
-- Upgrade springfox to 2.6.1 - [#4438](https://github.com/jhipster/generator-jhipster/pull/4438)
-- Enable oauth with live reload - [#4442](https://github.com/jhipster/generator-jhipster/pull/4442)
-- Configure default date format as ISO - [#4433](https://github.com/jhipster/generator-jhipster/pull/4433)
-- Early support for Yarn - [#4426](https://github.com/jhipster/generator-jhipster/pull/4426)
-- ClassNotFoundException when using Kafka + Gatling - [#4402](https://github.com/jhipster/generator-jhipster/issues/4402)
-- Upgrade to node 6.9.1 LTS - [#4419](https://github.com/jhipster/generator-jhipster/pull/4419)
-- Fill test strings with stream to avoid constant string too long error - [#4336](https://github.com/jhipster/generator-jhipster/pull/4336)
-- CLOB validation annotations are wrong - [#4344](https://github.com/jhipster/generator-jhipster/issues/4344)
+- Upgrade Gradle to 3.2 - [#4472](https://github.com/bpmlabs/generator-jhipster/pull/4472)
+- Tests generated for ZonedDateTime entity attributes are failing - [#4373](https://github.com/bpmlabs/generator-jhipster/issues/4373)
+- Update to Spring Boot 1.4.2 - [#4449](https://github.com/bpmlabs/generator-jhipster/issues/4449)
+- Change @PostConstruct to @Before in tests - [#4435](https://github.com/bpmlabs/generator-jhipster/pull/4435)
+- Upgrade springfox to 2.6.1 - [#4438](https://github.com/bpmlabs/generator-jhipster/pull/4438)
+- Enable oauth with live reload - [#4442](https://github.com/bpmlabs/generator-jhipster/pull/4442)
+- Configure default date format as ISO - [#4433](https://github.com/bpmlabs/generator-jhipster/pull/4433)
+- Early support for Yarn - [#4426](https://github.com/bpmlabs/generator-jhipster/pull/4426)
+- ClassNotFoundException when using Kafka + Gatling - [#4402](https://github.com/bpmlabs/generator-jhipster/issues/4402)
+- Upgrade to node 6.9.1 LTS - [#4419](https://github.com/bpmlabs/generator-jhipster/pull/4419)
+- Fill test strings with stream to avoid constant string too long error - [#4336](https://github.com/bpmlabs/generator-jhipster/pull/4336)
+- CLOB validation annotations are wrong - [#4344](https://github.com/bpmlabs/generator-jhipster/issues/4344)
 
 
 Closed tickets and merged pull requests
 ------------
-As always, __[you can check all closed tickets and merged pull requests here](https://github.com/jhipster/generator-jhipster/issues?q=milestone%3A3.11.0+is%3Aclosed)__.
+As always, __[you can check all closed tickets and merged pull requests here](https://github.com/bpmlabs/generator-jhipster/issues?q=milestone%3A3.11.0+is%3Aclosed)__.
 
 How to upgrade
 ------------
@@ -70,8 +70,8 @@ Help and bugs
 
 If you find any issue with this release, don't hesitate to:
 
-- Add a bug on our [bug tracker](https://github.com/jhipster/generator-jhipster/issues?state=open)
-- Post a question on [Stack Overflow](http://stackoverflow.com/tags/jhipster/info)
+- Add a bug on our [bug tracker](https://github.com/bpmlabs/generator-jhipster/issues?state=open)
+- Post a question on [Stack Overflow](http://stackoverflow.com/tags/bpmlabs/info)
 
 If the issue you have is an urgent bug or security issue, please:
 

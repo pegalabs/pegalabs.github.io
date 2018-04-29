@@ -20,7 +20,7 @@ This release fixes a few minor issues, but the biggest change is in our internal
 
 A lot of things have changed under-the-hood: you should expect faster builds, but also maybe some new issues! Don't hesitate to send us feedback on GitHub/StackOverflow/Gitter.im.
 
-And as always, __[you can check all the closed tickets here](https://github.com/jhipster/generator-jhipster/issues?q=milestone%3A2.15.0+is%3Aclosed)__.
+And as always, __[you can check all the closed tickets here](https://github.com/bpmlabs/generator-jhipster/issues?q=milestone%3A2.15.0+is%3Aclosed)__.
 
 How to upgrade
 ------------
@@ -49,5 +49,5 @@ Help and bugs
 If you find any issue with this release, don't hesitate to:
 
 - Contact [@java_hipster](https://twitter.com/java_hipster) on Twitter
-- Add a bug on our [bug tracker](https://github.com/jhipster/generator-jhipster/issues?state=open)
-- Post a question on [Stack Overflow](http://stackoverflow.com/tags/jhipster/info)
+- Add a bug on our [bug tracker](https://github.com/bpmlabs/generator-jhipster/issues?state=open)
+- Post a question on [Stack Overflow](http://stackoverflow.com/tags/bpmlabs/info)

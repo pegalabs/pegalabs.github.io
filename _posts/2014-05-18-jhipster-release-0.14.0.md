@@ -13,7 +13,7 @@ What's new
 
 JHipster 0.14.0 has an incredibly huge number of new features, thanks to our very active community which has provided a lot of pull requests.
 
-You can find the complete list of closed tickets and PR [here](https://github.com/jhipster/generator-jhipster/issues?milestone=3&page=1&state=closed)
+You can find the complete list of closed tickets and PR [here](https://github.com/bpmlabs/generator-jhipster/issues?milestone=3&page=1&state=closed)
 
 Most importantly, we have:
 
@@ -47,5 +47,5 @@ Help and bugs
 If you find any issue with this release, don't hesitate to:
 
 - Contact [@java_hipster](https://twitter.com/java_hipster) on Twitter
-- Add a bug on our [bug tracker](https://github.com/jhipster/generator-jhipster/issues?state=open)
-- Post a question on [Stack Overflow](http://stackoverflow.com/tags/jhipster/info)
+- Add a bug on our [bug tracker](https://github.com/bpmlabs/generator-jhipster/issues?state=open)
+- Post a question on [Stack Overflow](http://stackoverflow.com/tags/bpmlabs/info)

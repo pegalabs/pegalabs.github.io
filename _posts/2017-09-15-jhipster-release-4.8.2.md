@@ -9,7 +9,7 @@ JHipster release 4.8.2
 What's new
 ----------
 
-This is a patch release for JHipster 4.8, mostly to fix an issue concerning building a Docker image with Gradle (see ticket [#6348](https://github.com/jhipster/generator-jhipster/issues/6348)).
+This is a patch release for JHipster 4.8, mostly to fix an issue concerning building a Docker image with Gradle (see ticket [#6348](https://github.com/bpmlabs/generator-jhipster/issues/6348)).
 
 We also updated:
 
@@ -18,17 +18,17 @@ We also updated:
 
 Closed tickets and merged pull requests
 ------------
-As always, __[you can check all closed tickets and merged pull requests here](https://github.com/jhipster/generator-jhipster/issues?q=milestone%3A4.8.2+is%3Aclosed)__.
+As always, __[you can check all closed tickets and merged pull requests here](https://github.com/bpmlabs/generator-jhipster/issues?q=milestone%3A4.8.2+is%3Aclosed)__.
 
 How to upgrade
 ------------
 
 **Automatic upgrade**
 
-WARNING [this has been fixed recently](https://github.com/jhipster/generator-jhipster/pull/5966), so if you have trouble with this:
+WARNING [this has been fixed recently](https://github.com/bpmlabs/generator-jhipster/pull/5966), so if you have trouble with this:
 
 - You can still do a "manual upgrade" (see below)
-- If you find anything helpful for us, please send us comments on ticket [#5883](https://github.com/jhipster/generator-jhipster/issues/5883)
+- If you find anything helpful for us, please send us comments on ticket [#5883](https://github.com/bpmlabs/generator-jhipster/issues/5883)
 - If you have time and want to help, don't hesitate to contribute on this part!
 
 For an automatic upgrade, use the [JHipster upgrade sub-generator]({{ site.url }}/upgrading-an-application/) on an existing application:
@@ -77,8 +77,8 @@ Help and bugs
 
 If you find any issue with this release, don't hesitate to:
 
-- Add a bug on our [bug tracker](https://github.com/jhipster/generator-jhipster/issues?state=open)
-- Post a question on [Stack Overflow](http://stackoverflow.com/tags/jhipster/info)
+- Add a bug on our [bug tracker](https://github.com/bpmlabs/generator-jhipster/issues?state=open)
+- Post a question on [Stack Overflow](http://stackoverflow.com/tags/bpmlabs/info)
 
 If the issue you have is an urgent bug or security issue, please:
 

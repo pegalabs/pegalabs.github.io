@@ -11,18 +11,18 @@ What's new
 
 This release was initially supposed to be a patch release, to fix this very annoying bug:
 
-- Missing locale data and UI issues when the native language is not English, see [#6836](https://github.com/jhipster/generator-jhipster/issues/6836)
+- Missing locale data and UI issues when the native language is not English, see [#6836](https://github.com/bpmlabs/generator-jhipster/issues/6836)
 
 But as we also merged support for Angular 5.1, it has become a minor release:
 
-- Upgrade Angular to 5.1.0 / TypeScript to 2.5.3, see [#6841](https://github.com/jhipster/generator-jhipster/pull/6841)
+- Upgrade Angular to 5.1.0 / TypeScript to 2.5.3, see [#6841](https://github.com/bpmlabs/generator-jhipster/pull/6841)
 - This also improves our Webpack build time by about 10 to 20%, which is very impressive!
 
 As a result, this is recommended upgrade over JHipster v4.12.0 for everyone.
 
 Closed tickets and merged pull requests
 ------------
-As always, __[you can check all closed tickets and merged pull requests here](https://github.com/jhipster/generator-jhipster/issues?q=milestone%3A4.13.0+is%3Aclosed)__.
+As always, __[you can check all closed tickets and merged pull requests here](https://github.com/bpmlabs/generator-jhipster/issues?q=milestone%3A4.13.0+is%3Aclosed)__.
 
 How to upgrade
 ------------
@@ -75,8 +75,8 @@ Help and bugs
 
 If you find any issue with this release, don't hesitate to:
 
-- Add a bug on our [bug tracker](https://github.com/jhipster/generator-jhipster/issues?state=open)
-- Post a question on [Stack Overflow](http://stackoverflow.com/tags/jhipster/info)
+- Add a bug on our [bug tracker](https://github.com/bpmlabs/generator-jhipster/issues?state=open)
+- Post a question on [Stack Overflow](http://stackoverflow.com/tags/bpmlabs/info)
 
 If the issue you have is an urgent bug or security issue, please:
 

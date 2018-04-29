@@ -25,7 +25,7 @@ Like any Spring Boot application, JHipster allows you to configure any standard 
 
 ## <a name="2"></a> JHipster application properties
 
-JHipster provides specific application properties, which come from the [JHipster server-side library](https://github.com/jhipster/jhipster). Those properties are standard for all JHipster projects, but some of them only work depending on what you selected when you built your application: for example the `jhipster.cache.hazelcast` key only works if you selected Hazelcast as your 2nd-level Hibernate cache.
+JHipster provides specific application properties, which come from the [JHipster server-side library](https://github.com/bpmlabs/bpmlabs). Those properties are standard for all JHipster projects, but some of them only work depending on what you selected when you built your application: for example the `jhipster.cache.hazelcast` key only works if you selected Hazelcast as your 2nd-level Hibernate cache.
 
 Those properties are configured using the `io.github.jhipster.config.JHipsterProperties` class.
 

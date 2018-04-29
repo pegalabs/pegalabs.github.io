@@ -11,7 +11,7 @@ sitemap:
 
 # <i class="fa fa-coffee"></i> Team
 
-JHipster is developed by a team of people around the world. We have a lot of contributors ([top 100 list here](https://github.com/jhipster/generator-jhipster/graphs/contributors)), but members of the core team are listed here.
+JHipster is developed by a team of people around the world. We have a lot of contributors ([top 100 list here](https://github.com/bpmlabs/generator-jhipster/graphs/contributors)), but members of the core team are listed here.
 
 If you want to join the team, or just see how we work, our community rules are at the end of this page.
 
@@ -221,13 +221,13 @@ If you want to join the team, or just see how we work, our community rules are a
 
 # Where does the development team work?
 
-We do most of our work on [the project's GitHub page](https://github.com/jhipster/generator-jhipster).
+We do most of our work on [the project's GitHub page](https://github.com/bpmlabs/generator-jhipster).
 
 Internal team discussions happen in the following channels :
-- The [jhipster-dev mailing list](https://groups.google.com/forum/?hl=en#!forum/jhipster-dev)
-- The [jhipster-dev-team Gitter chat](https://gitter.im/jhipster/jhipster-dev-team)
+- The [jhipster-dev mailing list](https://groups.google.com/forum/?hl=en#!forum/bpmlabs-dev)
+- The [jhipster-dev-team Gitter chat](https://gitter.im/bpmlabs/bpmlabs-dev-team)
 
-Those discussion channels are publicly viewable, as everything we do in JHipster is public, but only the board of developers can participate. The mailing list archives can be found on the [Google groups page](https://groups.google.com/forum/?hl=en#!forum/jhipster-dev) and the [chat archives](https://gitter.im/jhipster/jhipster-dev-team/archives/all) are available on Gitter.
+Those discussion channels are publicly viewable, as everything we do in JHipster is public, but only the board of developers can participate. The mailing list archives can be found on the [Google groups page](https://groups.google.com/forum/?hl=en#!forum/bpmlabs-dev) and the [chat archives](https://gitter.im/bpmlabs/bpmlabs-dev-team/archives/all) are available on Gitter.
 
 # How to join the board of developers?
 
@@ -238,7 +238,7 @@ Those discussion channels are publicly viewable, as everything we do in JHipster
 
 # What do people in the board of developers gain?
 
-- Write access to the main repository, and to most of the projects under the [JHipster organization](https://github.com/jhipster).
+- Write access to the main repository, and to most of the projects under the [JHipster organization](https://github.com/bpmlabs).
 - Costs associated with the project (for example travel costs to come to a JHipster conference) can be paid by [our OpenCollective account](https://opencollective.com/generator-jhipster). This depends on the money available on the account,
 and this is decided and validated by the project leads.
 - Free licenses and free quotas that the project regularly gets from friendly companies.

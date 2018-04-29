@@ -9,13 +9,13 @@ JHipster release 3.9.1
 What's new
 ----------
 
-This is a bug-fix release, because of issue [#4283](https://github.com/jhipster/generator-jhipster/issues/4283).
+This is a bug-fix release, because of issue [#4283](https://github.com/bpmlabs/generator-jhipster/issues/4283).
 
 This is important for everyone using our microservices architecture, as basically the JHipster Registry couldn't register correctly services, because of an issue with the latest SpringFox v2.6.0 release. So we reverted SpringFox to the previous v2.5.0 release, and will do the upgrade later.
 
 Closed tickets
 ------------
-As always, __[you can check all closed tickets here](https://github.com/jhipster/generator-jhipster/issues?q=milestone%3A3.9.1+is%3Aclosed)__.
+As always, __[you can check all closed tickets here](https://github.com/bpmlabs/generator-jhipster/issues?q=milestone%3A3.9.1+is%3Aclosed)__.
 
 How to upgrade
 ------------
@@ -56,8 +56,8 @@ Help and bugs
 
 If you find any issue with this release, don't hesitate to:
 
-- Add a bug on our [bug tracker](https://github.com/jhipster/generator-jhipster/issues?state=open)
-- Post a question on [Stack Overflow](http://stackoverflow.com/tags/jhipster/info)
+- Add a bug on our [bug tracker](https://github.com/bpmlabs/generator-jhipster/issues?state=open)
+- Post a question on [Stack Overflow](http://stackoverflow.com/tags/bpmlabs/info)
 
 If the issue you have is an urgent bug or security issue, please:
 

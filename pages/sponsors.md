@@ -33,7 +33,7 @@ Bronze sponsors donate $100 per month to the project, and get the following bene
 Silver sponsors donate $500 per month to the project, and get the following benefits:
 
 - Same benefits as bronze sponsors (visibility on main pages, and thank you tweet).
-- 1 "hipster ticket": you can raise one issue per year, which will be labelled with the ["$ sponsor" label](https://github.com/jhipster/generator-jhipster/issues?utf8=%E2%9C%93&q=label%3A%22%24+sponsor%22+). That issue will then be given the highest possible priority by the JHipster core dev team, within reason. If needed, we will also do a specific patch release for you.
+- 1 "hipster ticket": you can raise one issue per year, which will be labelled with the ["$ sponsor" label](https://github.com/bpmlabs/generator-jhipster/issues?utf8=%E2%9C%93&q=label%3A%22%24+sponsor%22+). That issue will then be given the highest possible priority by the JHipster core dev team, within reason. If needed, we will also do a specific patch release for you.
 
 ## Benefits of being a gold sponsor
 

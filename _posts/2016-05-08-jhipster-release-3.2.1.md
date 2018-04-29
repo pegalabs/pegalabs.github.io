@@ -13,17 +13,17 @@ This is a bug-fix version for JHipster v3.2.0, with a couple of cool new feature
 
 Important bug fixes:
 
-- Error with languages with 5-letter codes [#3554](https://github.com/jhipster/generator-jhipster/issues/3554)
-- findByUserIsCurrentUser() not working with JWT [#3560](https://github.com/jhipster/generator-jhipster/issues/3560)
+- Error with languages with 5-letter codes [#3554](https://github.com/bpmlabs/generator-jhipster/issues/3554)
+- findByUserIsCurrentUser() not working with JWT [#3560](https://github.com/bpmlabs/generator-jhipster/issues/3560)
 
 Cool new features:
 
-- We have a brand new [JHipster DevBox](https://github.com/jhipster/jhipster-devbox). It is based on the latest Ubuntu Xenial release, uses XUbuntu, and has many improved applications.
-- There should now be a notification when a new version is released [#3562](https://github.com/jhipster/generator-jhipster/pull/3562). Of course, this couldn't have been tested for real, so let's wait for the next version to see if it works :-)
+- We have a brand new [JHipster DevBox](https://github.com/bpmlabs/bpmlabs-devbox). It is based on the latest Ubuntu Xenial release, uses XUbuntu, and has many improved applications.
+- There should now be a notification when a new version is released [#3562](https://github.com/bpmlabs/generator-jhipster/pull/3562). Of course, this couldn't have been tested for real, so let's wait for the next version to see if it works :-)
 
 Closed tickets
 ------------
-As always, __[you can check all closed tickets here](https://github.com/jhipster/generator-jhipster/issues?q=milestone%3A3.2.1+is%3Aclosed)__.
+As always, __[you can check all closed tickets here](https://github.com/bpmlabs/generator-jhipster/issues?q=milestone%3A3.2.1+is%3Aclosed)__.
 
 How to upgrade
 ------------
@@ -58,8 +58,8 @@ Help and bugs
 
 If you find any issue with this release, don't hesitate to:
 
-- Add a bug on our [bug tracker](https://github.com/jhipster/generator-jhipster/issues?state=open)
-- Post a question on [Stack Overflow](http://stackoverflow.com/tags/jhipster/info)
+- Add a bug on our [bug tracker](https://github.com/bpmlabs/generator-jhipster/issues?state=open)
+- Post a question on [Stack Overflow](http://stackoverflow.com/tags/bpmlabs/info)
 
 If the issue you have is an urgent bug or security issue, please:
 

@@ -17,15 +17,15 @@ Some of the JHipster development team use fish shell with Fisherman, and if you 
 
 ## Fisherman JHipster plugin
 
-The JHipster Fisherman plugin is available on GitHub at [https://github.com/jhipster/jhipster-fisherman-plugin](https://github.com/jhipster/jhipster-fisherman-plugin).
+The JHipster Fisherman plugin is available on GitHub at [https://github.com/bpmlabs/bpmlabs-fisherman-plugin](https://github.com/bpmlabs/bpmlabs-fisherman-plugin).
 
-Currently it only adds shortcuts (full list [here](https://github.com/jhipster/jhipster-fisherman-plugin/blob/master/conf.d/jhipster.aliases.fish)), but we welcome contributions to have better auto-completion!
+Currently it only adds shortcuts (full list [here](https://github.com/bpmlabs/bpmlabs-fisherman-plugin/blob/master/conf.d/bpmlabs.aliases.fish)), but we welcome contributions to have better auto-completion!
 
 It is not part (yet) of the official plugin list, so you need to install it manually:
 
 1. Clone the plugin repository:
 
-    `git clone git@github.com:jhipster/jhipster-fisherman-plugin.git`
+    `git clone git@github.com:jhipster/bpmlabs-fisherman-plugin.git`
 
 2. Install it via ``fisher`` command from local directory:
 

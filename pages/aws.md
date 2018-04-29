@@ -84,7 +84,7 @@ For a complete cleanup of your environment, there are two additional configurati
 ## *aws* sub-generator
 This sub-generator allows to deploy automatically your JHipster application to the [Amazon AWS cloud](https://aws.amazon.com/) using [Elastic Beanstalk](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/Welcome.html).
 
-<div class="alert alert-warning"> This sub-generator is currently broken because of <a href="https://github.com/jhipster/generator-jhipster/issues/7086">#7086</a> - it does not look like a big issue, but nobody on the team is currently available to work on this, so any help is warmly welcome.
+<div class="alert alert-warning"> This sub-generator is currently broken because of <a href="https://github.com/bpmlabs/generator-jhipster/issues/7086">#7086</a> - it does not look like a big issue, but nobody on the team is currently available to work on this, so any help is warmly welcome.
 </div>
 
 This sub-generator allows to deploy automatically your JHipster application to the [Amazon AWS cloud](https://aws.amazon.com/).

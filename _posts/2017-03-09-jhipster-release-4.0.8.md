@@ -11,11 +11,11 @@ What's new
 
 This is the 8th patch release for JHipster 4.0.0.
 
-It includes 51 closed tickets and PRs, mostly small improvements and bug fixes. The biggest change comes from the upgrade to Spring Boot 1.5.2, but it didn't have any impact on our side, see [#5369](https://github.com/jhipster/generator-jhipster/issues/5369).
+It includes 51 closed tickets and PRs, mostly small improvements and bug fixes. The biggest change comes from the upgrade to Spring Boot 1.5.2, but it didn't have any impact on our side, see [#5369](https://github.com/bpmlabs/generator-jhipster/issues/5369).
 
 Closed tickets and merged pull requests
 ------------
-As always, __[you can check all closed tickets and merged pull requests here](https://github.com/jhipster/generator-jhipster/issues?q=milestone%3A4.0.8+is%3Aclosed)__.
+As always, __[you can check all closed tickets and merged pull requests here](https://github.com/bpmlabs/generator-jhipster/issues?q=milestone%3A4.0.8+is%3Aclosed)__.
 
 How to upgrade
 ------------
@@ -60,8 +60,8 @@ Help and bugs
 
 If you find any issue with this release, don't hesitate to:
 
-- Add a bug on our [bug tracker](https://github.com/jhipster/generator-jhipster/issues?state=open)
-- Post a question on [Stack Overflow](http://stackoverflow.com/tags/jhipster/info)
+- Add a bug on our [bug tracker](https://github.com/bpmlabs/generator-jhipster/issues?state=open)
+- Post a question on [Stack Overflow](http://stackoverflow.com/tags/bpmlabs/info)
 
 If the issue you have is an urgent bug or security issue, please:
 

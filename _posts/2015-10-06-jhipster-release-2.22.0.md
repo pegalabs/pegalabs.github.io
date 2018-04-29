@@ -18,9 +18,9 @@ What's new
 
 ## Breaking change: tables names are now lower-case
 
-Issue [#2018](https://github.com/jhipster/generator-jhipster/issues/2018) is a problem using MySQL (our most popular database option, 67% of all production builds last month!) on Linux, as our tables were case-sensitive.
+Issue [#2018](https://github.com/bpmlabs/generator-jhipster/issues/2018) is a problem using MySQL (our most popular database option, 67% of all production builds last month!) on Linux, as our tables were case-sensitive.
 
-Thankfully we had a very good bug report (to everyone submitting incomplete bug reports: please use our [guidelines](https://github.com/jhipster/generator-jhipster/blob/master/CONTRIBUTING.md#submit)!), we have decided to make all our table names lower-case. This means changing their configuration in JPA as well as in Liquibase.
+Thankfully we had a very good bug report (to everyone submitting incomplete bug reports: please use our [guidelines](https://github.com/bpmlabs/generator-jhipster/blob/master/CONTRIBUTING.md#submit)!), we have decided to make all our table names lower-case. This means changing their configuration in JPA as well as in Liquibase.
 
 This is a breaking change for existing applications, but if you didn't have the problem, you can safely ignore this.
 
@@ -64,7 +64,7 @@ We will have a great work to remove all Java 7 code in the near future, which sh
 Closed tickets
 ------------
 
-As always, __[you can check all the closed tickets here](https://github.com/jhipster/generator-jhipster/issues?q=milestone%3A2.22.0+is%3Aclosed)__.
+As always, __[you can check all the closed tickets here](https://github.com/bpmlabs/generator-jhipster/issues?q=milestone%3A2.22.0+is%3Aclosed)__.
 
 How to upgrade
 ------------
@@ -93,5 +93,5 @@ Help and bugs
 If you find any issue with this release, don't hesitate to:
 
 - Contact [@java_hipster](https://twitter.com/java_hipster) on Twitter
-- Add a bug on our [bug tracker](https://github.com/jhipster/generator-jhipster/issues?state=open)
-- Post a question on [Stack Overflow](http://stackoverflow.com/tags/jhipster/info)
+- Add a bug on our [bug tracker](https://github.com/bpmlabs/generator-jhipster/issues?state=open)
+- Post a question on [Stack Overflow](http://stackoverflow.com/tags/bpmlabs/info)

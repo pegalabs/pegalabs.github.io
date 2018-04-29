@@ -48,7 +48,7 @@ The logs dashboard allows to manage at runtime the Logback configuration of the 
 
 ## <a name="jhipster-registry"></a> JHipster Registry
 
-The JHipster Registry has [its own documentation page here]({{ site.url }}/jhipster-registry/).
+The JHipster Registry has [its own documentation page here]({{ site.url }}/bpmlabs-registry/).
 
 It mostly provides the same monitoring dashboards as in the previous section, but it works on a separate server. As such, it is a bit more complex to set up, but it is highly recommended to have dashboards running outside of the running application: otherwise, they won't be available when there is an application failure.
 
@@ -86,7 +86,7 @@ Setting those properties will enrich your forwarded logs with metrics coming fro
 
 The JHipster Console is a monitoring tool based on the [ELK Stack](https://www.elastic.co/products). It provides ready-to-use dashboards and analytics tools to have a real-time overview of your infrastructure's performance.
 
-It is an Open Source application, available on GitHub at [jhipster/jhipster-console](https://github.com/jhipster/jhipster-console).
+It is an Open Source application, available on GitHub at [jhipster/bpmlabs-console](https://github.com/bpmlabs/bpmlabs-console).
 
 The ELK stack is composed of:
 
@@ -111,9 +111,9 @@ The JHipster Console fully supports the monitoring of a JHipster microservice ar
 
 If you already have a JHipster [microservice architecture]({{ site.url }}/microservices-architecture/) set up with the Docker Compose workflow, the JHipster Console can be automatically set up by the Docker Compose sub-generator.
 
-If you are using the monolithic version of JHipster, you can get the JHipster Console's Docker-Compose file [from GitHub](https://github.com/jhipster/jhipster-console/blob/master/bootstrap/docker-compose.yml) or with the following command:
+If you are using the monolithic version of JHipster, you can get the JHipster Console's Docker-Compose file [from GitHub](https://github.com/bpmlabs/bpmlabs-console/blob/master/bootstrap/docker-compose.yml) or with the following command:
 
-    curl -O https://raw.githubusercontent.com/jhipster/jhipster-console/master/bootstrap/docker-compose.yml
+    curl -O https://raw.githubusercontent.com/bpmlabs/bpmlabs-console/master/bootstrap/docker-compose.yml
 
 Then you will be able to start the console with:
 
@@ -163,7 +163,7 @@ Searches, visualization and dashboards created in Kibana can be exported using t
 You can then extract the JSON description of a specific object under the `_source` field of the export.json file.
 You can then put this data in a JSON file in one of the `jhipster-console/dashboards` sub-folder for auto-import.
 
-If you have created useful dashboards and visualizations for your JHipster applications please consider contributing those back to the community by submitting a Pull Request on the [JHipster Console's GitHub project](https://github.com/jhipster/jhipster-console).
+If you have created useful dashboards and visualizations for your JHipster applications please consider contributing those back to the community by submitting a Pull Request on the [JHipster Console's GitHub project](https://github.com/bpmlabs/bpmlabs-console).
 
 ## <a name="configuring-metrics-forwarding"></a> Forwarding metrics to a supported third party monitoring system (JMX, Graphite, Prometheus)
 
@@ -199,12 +199,12 @@ JHipster Console comes with built-in alerting by integrating [Elastalert](https:
 
 ### Enable alerting
 
-To enable alerting, setup the `jhipster-alerter` container by adding the following lines [`docker-compose.yml`](https://github.com/jhipster/jhipster-console/blob/master/bootstrap/docker-compose.yml).
+To enable alerting, setup the `jhipster-alerter` container by adding the following lines [`docker-compose.yml`](https://github.com/bpmlabs/bpmlabs-console/blob/master/bootstrap/docker-compose.yml).
 
     jhipster-alerter:
-        image: jhipster/jhipster-alerter
+        image: jhipster/bpmlabs-alerter
         #volumes:
-        #    - ../jhipster-alerter/rules/:/opt/elastalert/rules/
+        #    - ../bpmlabs-alerter/rules/:/opt/elastalert/rules/
         #    - ../alerts/config.yaml:/opt/elastalert/config.yaml
 
 ### Configure alerting
@@ -226,6 +226,6 @@ To define new alerts, add new Yaml rule files in `alerts/rules` and then test th
 
 Note that those Yaml files should have a `.yaml` file extension. Read more on how to write rules at [Elastalert's official documentation](https://elastalert.readthedocs.org/en/latest/ruletypes.html).
 
-[jhipster-metrics-page]: {{ site.url }}/images/jhipster_metrics_page.png "JHipster Metrics page"
-[monitoring-dashboard]: {{ site.url }}/images/jhipster-console-monitoring.png "Monitoring Dashboard"
-[jvm-dashboard]: {{ site.url }}/images/jhipster-console-jvm.png "JVM Dashboard"
+[jhipster-metrics-page]: {{ site.url }}/images/bpmlabs_metrics_page.png "JHipster Metrics page"
+[monitoring-dashboard]: {{ site.url }}/images/bpmlabs-console-monitoring.png "Monitoring Dashboard"
+[jvm-dashboard]: {{ site.url }}/images/bpmlabs-console-jvm.png "JVM Dashboard"

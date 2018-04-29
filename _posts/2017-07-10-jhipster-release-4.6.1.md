@@ -11,23 +11,23 @@ What's new
 
 This is the first patch release for JHipster v4.6.0. This is a recommended upgrade for everyone, here are the most important changes:
 
-- Upgrade to Webpack 3 - this gives an enormous boost in performance, and this is why this is a recommended upgrade. See [#6049](https://github.com/jhipster/generator-jhipster/pull/6049).
-- Fix the Gradle build on Windows - see [#6064](https://github.com/jhipster/generator-jhipster/issues/6064).
-- Fix Angular 4 deployment on Heroku - see [#6059](https://github.com/jhipster/generator-jhipster/issues/6059).
+- Upgrade to Webpack 3 - this gives an enormous boost in performance, and this is why this is a recommended upgrade. See [#6049](https://github.com/bpmlabs/generator-jhipster/pull/6049).
+- Fix the Gradle build on Windows - see [#6064](https://github.com/bpmlabs/generator-jhipster/issues/6064).
+- Fix Angular 4 deployment on Heroku - see [#6059](https://github.com/bpmlabs/generator-jhipster/issues/6059).
 
 Closed tickets and merged pull requests
 ------------
-As always, __[you can check all closed tickets and merged pull requests here](https://github.com/jhipster/generator-jhipster/issues?q=milestone%3A4.6.1+is%3Aclosed)__.
+As always, __[you can check all closed tickets and merged pull requests here](https://github.com/bpmlabs/generator-jhipster/issues?q=milestone%3A4.6.1+is%3Aclosed)__.
 
 How to upgrade
 ------------
 
 **Automatic upgrade**
 
-WARNING [this has been fixed very recently](https://github.com/jhipster/generator-jhipster/pull/5966), so if you have trouble with this:
+WARNING [this has been fixed very recently](https://github.com/bpmlabs/generator-jhipster/pull/5966), so if you have trouble with this:
 
 - You can still do a "manual upgrade" (see below)
-- If you find anything helpful for us, please send us comments on ticket [#5883](https://github.com/jhipster/generator-jhipster/issues/5883)
+- If you find anything helpful for us, please send us comments on ticket [#5883](https://github.com/bpmlabs/generator-jhipster/issues/5883)
 - If you have time and want to help, don't hesitate to contribute on this part!
 
 For an automatic upgrade, use the [JHipster upgrade sub-generator]({{ site.url }}/upgrading-an-application/) on an existing application:
@@ -76,8 +76,8 @@ Help and bugs
 
 If you find any issue with this release, don't hesitate to:
 
-- Add a bug on our [bug tracker](https://github.com/jhipster/generator-jhipster/issues?state=open)
-- Post a question on [Stack Overflow](http://stackoverflow.com/tags/jhipster/info)
+- Add a bug on our [bug tracker](https://github.com/bpmlabs/generator-jhipster/issues?state=open)
+- Post a question on [Stack Overflow](http://stackoverflow.com/tags/bpmlabs/info)
 
 If the issue you have is an urgent bug or security issue, please:
 

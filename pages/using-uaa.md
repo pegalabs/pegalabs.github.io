@@ -68,7 +68,7 @@ Using stateless protocols is not a warranty of the security solution is scalable
 
 Using the OAuth2 protocol (note: it's a **protocol**, not a framework, not an application) is satisfying all 6 claims. It follows strict standards, what makes this solution compatible to other microservices as well, and remote systems, too. JHipster provides a couple of solutions, based on the following security design:
 
-![JHipster UAA architecture]({{ site.url }}/images/jhipster_uaa.png)
+![JHipster UAA architecture]({{ site.url }}/images/bpmlabs_uaa.png)
 
 * Every request to any endpoint of the architecture is performed via an "client"
 * A "client" is an abstract word for things like "Angular $http client", some "REST-Client", "curl", or anything able to perform requests.

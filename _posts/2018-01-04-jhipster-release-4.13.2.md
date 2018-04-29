@@ -11,9 +11,9 @@ What's new
 
 This patch release was triggered because of this issue, as it affects everyone:
 
-- Tests on AuditsComponent fail with Prod profile [#6937](https://github.com/jhipster/generator-jhipster/issues/6937)
+- Tests on AuditsComponent fail with Prod profile [#6937](https://github.com/bpmlabs/generator-jhipster/issues/6937)
 
-Please note that [we have voted to remove HTTP session clustering with Hazelcast](https://groups.google.com/forum/?hl=en#!topic/jhipster-dev/A6HabUyZRRY), and that since our last release you can easily configure a Spring Cache abstraction, which we believe gives a much better solution to the same problem. So this is probably the last release with that option enabled.
+Please note that [we have voted to remove HTTP session clustering with Hazelcast](https://groups.google.com/forum/?hl=en#!topic/bpmlabs-dev/A6HabUyZRRY), and that since our last release you can easily configure a Spring Cache abstraction, which we believe gives a much better solution to the same problem. So this is probably the last release with that option enabled.
 
 Our React support is moving quickly forward:
 
@@ -24,7 +24,7 @@ As before, you can test our React support by using the `--experimental` flag whe
 
 Closed tickets and merged pull requests
 ------------
-As always, __[you can check all closed tickets and merged pull requests here](https://github.com/jhipster/generator-jhipster/issues?q=milestone%3A4.13.2+is%3Aclosed)__.
+As always, __[you can check all closed tickets and merged pull requests here](https://github.com/bpmlabs/generator-jhipster/issues?q=milestone%3A4.13.2+is%3Aclosed)__.
 
 How to upgrade
 ------------
@@ -77,8 +77,8 @@ Help and bugs
 
 If you find any issue with this release, don't hesitate to:
 
-- Add a bug on our [bug tracker](https://github.com/jhipster/generator-jhipster/issues?state=open)
-- Post a question on [Stack Overflow](http://stackoverflow.com/tags/jhipster/info)
+- Add a bug on our [bug tracker](https://github.com/bpmlabs/generator-jhipster/issues?state=open)
+- Post a question on [Stack Overflow](http://stackoverflow.com/tags/bpmlabs/info)
 
 If the issue you have is an urgent bug or security issue, please:
 

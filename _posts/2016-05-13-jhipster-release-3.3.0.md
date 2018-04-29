@@ -14,13 +14,13 @@ This version is a library upgrade, as Spring Cloud Brixton is now officially sta
 Important changes and bug fixes:
 
 - A new JHipster Registry (v2.1.0) has been released, and adds a new dashboard when you open up the application.
-- MongoDB deployment was buggy, as there was an error in the Mongobee configuration [#3582](https://github.com/jhipster/generator-jhipster/issues/3582)
-- Spring Data Cassandra support has been removed, so we use directly the DataStax Driver. This has allowed us to upgrade the Driver to a more recent version, and be ready for Cassandra 3.0 [#3570](https://github.com/jhipster/generator-jhipster/pull/3570)
-- The mail health check is now disabled by default, as it was causing issues with the Registry and Cassandra [#3579](https://github.com/jhipster/generator-jhipster/issues/3579)
+- MongoDB deployment was buggy, as there was an error in the Mongobee configuration [#3582](https://github.com/bpmlabs/generator-jhipster/issues/3582)
+- Spring Data Cassandra support has been removed, so we use directly the DataStax Driver. This has allowed us to upgrade the Driver to a more recent version, and be ready for Cassandra 3.0 [#3570](https://github.com/bpmlabs/generator-jhipster/pull/3570)
+- The mail health check is now disabled by default, as it was causing issues with the Registry and Cassandra [#3579](https://github.com/bpmlabs/generator-jhipster/issues/3579)
 
 Closed tickets
 ------------
-As always, __[you can check all closed tickets here](https://github.com/jhipster/generator-jhipster/issues?q=milestone%3A3.3.0+is%3Aclosed)__.
+As always, __[you can check all closed tickets here](https://github.com/bpmlabs/generator-jhipster/issues?q=milestone%3A3.3.0+is%3Aclosed)__.
 
 How to upgrade
 ------------
@@ -55,8 +55,8 @@ Help and bugs
 
 If you find any issue with this release, don't hesitate to:
 
-- Add a bug on our [bug tracker](https://github.com/jhipster/generator-jhipster/issues?state=open)
-- Post a question on [Stack Overflow](http://stackoverflow.com/tags/jhipster/info)
+- Add a bug on our [bug tracker](https://github.com/bpmlabs/generator-jhipster/issues?state=open)
+- Post a question on [Stack Overflow](http://stackoverflow.com/tags/bpmlabs/info)
 
 If the issue you have is an urgent bug or security issue, please:
 

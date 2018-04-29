@@ -21,7 +21,7 @@ Other notable improvements are:
 - Updated the images to have our new logo created by [@ggaulard](https://twitter.com/ggaulard)
 - Support for 2 new langages (traditional Chinese and Swedish), for an impressive total of 13 supported languages!
 
-[You can check the closed tickets here](https://github.com/jhipster/generator-jhipster/issues?q=milestone%3A1.5.0+is%3Aclosed).
+[You can check the closed tickets here](https://github.com/bpmlabs/generator-jhipster/issues?q=milestone%3A1.5.0+is%3Aclosed).
 
 How to upgrade
 ------------
@@ -44,5 +44,5 @@ Help and bugs
 If you find any issue with this release, don't hesitate to:
 
 - Contact [@java_hipster](https://twitter.com/java_hipster) on Twitter
-- Add a bug on our [bug tracker](https://github.com/jhipster/generator-jhipster/issues?state=open)
-- Post a question on [Stack Overflow](http://stackoverflow.com/tags/jhipster/info)
+- Add a bug on our [bug tracker](https://github.com/bpmlabs/generator-jhipster/issues?state=open)
+- Post a question on [Stack Overflow](http://stackoverflow.com/tags/bpmlabs/info)

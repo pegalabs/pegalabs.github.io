@@ -28,7 +28,7 @@ We have updated those needles, so they are now called something like "jhipster-n
 
 ### User creation and deletion in the user management view
 
-Pull Request [#2385](https://github.com/jhipster/generator-jhipster/pull/2385) improves the user management screen, so you can now create and delete users directly from this screen.
+Pull Request [#2385](https://github.com/bpmlabs/generator-jhipster/pull/2385) improves the user management screen, so you can now create and delete users directly from this screen.
 
 ### Protractor tests
 
@@ -36,11 +36,11 @@ Initial support for [Protractor](https://github.com/angular/protractor) has been
 
 ### Entities sorting
 
-Pull Request [#2314](https://github.com/jhipster/generator-jhipster/pull/2314) adds the possibility to sort each paginated entity tables, on each of its attributes. Pagination and sorting are done on the server-side, so they work correctly when you have a lot of data.
+Pull Request [#2314](https://github.com/bpmlabs/generator-jhipster/pull/2314) adds the possibility to sort each paginated entity tables, on each of its attributes. Pagination and sorting are done on the server-side, so they work correctly when you have a lot of data.
 
 ### UI Bootstrap pagination
 
-Thanks to Pull Request [#2402](https://github.com/jhipster/generator-jhipster/pull/2402) entity pagination is now done with UI Bootstrap, and not with a custom generated code.
+Thanks to Pull Request [#2402](https://github.com/bpmlabs/generator-jhipster/pull/2402) entity pagination is now done with UI Bootstrap, and not with a custom generated code.
 
 ### Optional service layer for entities
 
@@ -53,7 +53,7 @@ Logging now inherits the Spring Boot default logging configuration, so it looks 
 Closed tickets
 ------------
 
-As always, __[you can check all the closed tickets here](https://github.com/jhipster/generator-jhipster/issues?q=milestone%3A2.25.0+is%3Aclosed)__.
+As always, __[you can check all the closed tickets here](https://github.com/bpmlabs/generator-jhipster/issues?q=milestone%3A2.25.0+is%3Aclosed)__.
 
 How to upgrade
 ------------
@@ -82,5 +82,5 @@ Help and bugs
 If you find any issue with this release, don't hesitate to:
 
 - Contact [@java_hipster](https://twitter.com/java_hipster) on Twitter
-- Add a bug on our [bug tracker](https://github.com/jhipster/generator-jhipster/issues?state=open)
-- Post a question on [Stack Overflow](http://stackoverflow.com/tags/jhipster/info)
+- Add a bug on our [bug tracker](https://github.com/bpmlabs/generator-jhipster/issues?state=open)
+- Post a question on [Stack Overflow](http://stackoverflow.com/tags/bpmlabs/info)

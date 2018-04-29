@@ -9,7 +9,7 @@ sitemap:
 
 __Tip submitted by [@Zyst](https://github.com/Zyst)__
 
-#### MSSQL Support has been added to the generator since this [pull request #4589](https://github.com/jhipster/generator-jhipster/pull/4589), so you don't need to do any specific configuration anymore!
+#### MSSQL Support has been added to the generator since this [pull request #4589](https://github.com/bpmlabs/generator-jhipster/pull/4589), so you don't need to do any specific configuration anymore!
 
 _Goal:_ By the end of this tutorial you will have the default JHipster application running on your SQL Server, with everything being functional.
 

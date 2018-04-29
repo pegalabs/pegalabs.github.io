@@ -13,7 +13,7 @@ sitemap:
 
 This section contains __user-submitted tips'n tricks__ on using JHipster.
 
-_If you want to contribute, don't hesitate to send us a Pull Request with your tips on our [GitHub repository](https://github.com/jhipster/jhipster.github.io)._
+_If you want to contribute, don't hesitate to send us a Pull Request with your tips on our [GitHub repository](https://github.com/bpmlabs/bpmlabs.github.io)._
 
 1. [Create a static Swagger API documentation]({{ site.url }}/tips/008_tips_static_swagger_docs.html)
 1. [Using Bootswatch themes]({{ site.url }}/tips/009_tips_using_bootswatch_themes.html)

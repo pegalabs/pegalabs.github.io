@@ -13,7 +13,7 @@ sitemap:
 
 We are currently creating JHipster meetups all around the world!
 
-- If you want to create your own meetup, it's very easy! Just do a Pull Request on [this Web page](https://github.com/jhipster/jhipster.github.io/blob/master/pages/meetups.md) to add your meetup directly.
+- If you want to create your own meetup, it's very easy! Just do a Pull Request on [this Web page](https://github.com/bpmlabs/bpmlabs.github.io/blob/master/pages/meetups.md) to add your meetup directly.
 - There is no rule for meetups: you can schedule them when you want, host it where you want, and invite who you want.
 - The JHipster team will do its best to support you: we'll RT you on Twitter, put your event on our main page, etc.
 
@@ -21,19 +21,19 @@ We are currently creating JHipster meetups all around the world!
 
 **North America**
 
-- [New York, USA - JHipster meetup](https://www.meetup.com/JHipster-NYC/)
-- [Washington, USA - JHipster meetup](https://www.meetup.com/JHipster-DC/)
+- [New York, USA - JHipster meetup](https://www.meetup.com/bpmlabs-NYC/)
+- [Washington, USA - JHipster meetup](https://www.meetup.com/bpmlabs-DC/)
 
 **Europe**
 
-- [Dublin, Ireland - JHipster meetup](https://www.meetup.com/JHipsterDublin/)
-- [Lyon, France - JHipster meetup](https://www.meetup.com/JHipster-Lyon/)
-- [Paris, France - JHipster meetup](https://www.meetup.com/JHipster-User-Group/)
-- [Zurich, Switzerland - JHipster meetup](https://www.meetup.com/JHipster/)
+- [Dublin, Ireland - JHipster meetup](https://www.meetup.com/bpmlabsDublin/)
+- [Lyon, France - JHipster meetup](https://www.meetup.com/bpmlabs-Lyon/)
+- [Paris, France - JHipster meetup](https://www.meetup.com/bpmlabs-User-Group/)
+- [Zurich, Switzerland - JHipster meetup](https://www.meetup.com/bpmlabs/)
 
 **Oceania**
 
-- [Melbourne, Australia - JHipster meetup](https://www.meetup.com/fr-FR/jHipster-Melbourne/)
+- [Melbourne, Australia - JHipster meetup](https://www.meetup.com/fr-FR/bpmlabs-Melbourne/)
 
 ## Meetups being created
 

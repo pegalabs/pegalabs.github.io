@@ -13,7 +13,7 @@ What's new
 
 This is a bugfix release, correcting an issue with HazelCast.
 
-- Fixed [JHipster version 0.8.1 has issues with HazelCast](https://github.com/jhipster/generator-jhipster/issues/106)
+- Fixed [JHipster version 0.8.1 has issues with HazelCast](https://github.com/bpmlabs/generator-jhipster/issues/106)
 
 How to upgrade
 ------------
@@ -36,5 +36,5 @@ Help and bugs
 If you find any issue with this release, don't hesitate to:
 
 - Contact [@java_hipster](https://twitter.com/java_hipster) on Twitter
-- Add a bug on our [bug tracker](https://github.com/jhipster/generator-jhipster/issues?state=open)
-- Post a question on [Stack Overflow](http://stackoverflow.com/tags/jhipster/info)
+- Add a bug on our [bug tracker](https://github.com/bpmlabs/generator-jhipster/issues?state=open)
+- Post a question on [Stack Overflow](http://stackoverflow.com/tags/bpmlabs/info)

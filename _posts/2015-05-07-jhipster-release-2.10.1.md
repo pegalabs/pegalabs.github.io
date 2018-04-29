@@ -16,9 +16,9 @@ Looking for the (old) JHipster v2.x documentation? It's [Here]({{ post.url }}/do
 What's new
 ----------
 
-This is a bug-fixing release, which mainly fixes issue [#1448](https://github.com/jhipster/generator-jhipster/issues/1448), which made an error in the AngularJS code if your application isn't named 'jhipster'.
+This is a bug-fixing release, which mainly fixes issue [#1448](https://github.com/bpmlabs/generator-jhipster/issues/1448), which made an error in the AngularJS code if your application isn't named 'jhipster'.
 
-And as always, __[you can check all the closed tickets here](https://github.com/jhipster/generator-jhipster/issues?q=milestone%3A2.10.1+is%3Aclosed)__.
+And as always, __[you can check all the closed tickets here](https://github.com/bpmlabs/generator-jhipster/issues?q=milestone%3A2.10.1+is%3Aclosed)__.
 
 How to upgrade
 ------------
@@ -47,5 +47,5 @@ Help and bugs
 If you find any issue with this release, don't hesitate to:
 
 - Contact [@java_hipster](https://twitter.com/java_hipster) on Twitter
-- Add a bug on our [bug tracker](https://github.com/jhipster/generator-jhipster/issues?state=open)
-- Post a question on [Stack Overflow](http://stackoverflow.com/tags/jhipster/info)
+- Add a bug on our [bug tracker](https://github.com/bpmlabs/generator-jhipster/issues?state=open)
+- Post a question on [Stack Overflow](http://stackoverflow.com/tags/bpmlabs/info)

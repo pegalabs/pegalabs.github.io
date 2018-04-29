@@ -13,7 +13,7 @@ Microservices are a specific kind of JHipster applications. Please refer to our 
 
 ## <a name="elk"></a> Microservices monitoring
 
-Please refer to our [JHipster Registry documentation]({{ site.url }}/jhipster-registry) for learning which runtime dashboards are available, and how to use them.
+Please refer to our [JHipster Registry documentation]({{ site.url }}/bpmlabs-registry) for learning which runtime dashboards are available, and how to use them.
 
 Our [monitoring documentation]({{ site.url }}/monitoring) is also very important, to learn specific information on using:
 

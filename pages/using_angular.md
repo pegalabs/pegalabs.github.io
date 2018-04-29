@@ -126,7 +126,7 @@ For example, the following text will only be displayed to users having one of th
 
 ## The ng-jhipster library
 
-The ng-jhipster library is free and OSS, and available on [https://github.com/jhipster/ng-jhipster](https://github.com/jhipster/ng-jhipster).
+The ng-jhipster library is free and OSS, and available on [https://github.com/bpmlabs/ng-jhipster](https://github.com/bpmlabs/ng-jhipster).
 
 The ng-jhipster library contains utility functions and common components that are used by Angular 2+ applications. They include:
 

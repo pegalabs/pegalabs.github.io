@@ -17,7 +17,7 @@ Those policies are followed by the [development team]({{ site.url }}/team/), and
 
 ## Policy 0: Policies are voted by the development team
 
-Each policy can be discussed or modified by the development team on the [mailing list](https://groups.google.com/forum/?hl=en#!forum/jhipster-dev). Any significant change must be voted (+1 if you agree, -1 if you disagree).
+Each policy can be discussed or modified by the development team on the [mailing list](https://groups.google.com/forum/?hl=en#!forum/bpmlabs-dev). Any significant change must be voted (+1 if you agree, -1 if you disagree).
 
 ## Policy 1: technologies used by JHipster have their default configuration used as much as possible
 

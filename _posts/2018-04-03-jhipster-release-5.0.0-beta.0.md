@@ -10,20 +10,20 @@ This is our first beta release for JHipster v5.
 
 Its main features are Spring Boot 2 support and React support (in addition to an improved Angular support!).
 
-It has [350 closed tickets and pull requests on the main project](https://github.com/jhipster/generator-jhipster/issues?q=milestone%3A5.0.0-beta.0+is%3Aclosed), so it is really a huge work.
+It has [350 closed tickets and pull requests on the main project](https://github.com/bpmlabs/generator-jhipster/issues?q=milestone%3A5.0.0-beta.0+is%3Aclosed), so it is really a huge work.
 
 _It is not available through the usual channels as this is a beta release, please read below for more information!_
 
 What's new?
 ----------
 
-- Spring Boot 2.0.0 support [#7061](https://github.com/jhipster/generator-jhipster/pull/7061)
+- Spring Boot 2.0.0 support [#7061](https://github.com/bpmlabs/generator-jhipster/pull/7061)
     - All Spring libraries have been upgraded, including Spring Data, Spring Security and Spring Cloud
     - The Spring Boot configuration has also been upgraded
 - Reactive support
     - New generator option to enable Spring Webflux support
     - Support for Spring Webflux in the Spring controller sub-generator
-- React support [#6044](https://github.com/jhipster/generator-jhipster/issues/6044) (out of experimental status)
+- React support [#6044](https://github.com/bpmlabs/generator-jhipster/issues/6044) (out of experimental status)
     - Same features as our Angular support (including updates mentioned below regarding dialogs and entity folder structure)
     - Uses Redux for state management
     - Uses React Router v4 for routing
@@ -31,21 +31,21 @@ What's new?
     - Webpack 4 is used for builds and is very similar to our Angular Webpack setup
     - Karma + Mocha + Chai unit tests with good coverage
 - Improved Angular support
-    - This includes a migration to Webpack 4, which gives a nice performance boost (it varies depending on your situation, but you can expect a noticeable positive impact) [#7186](https://github.com/jhipster/generator-jhipster/pull/7186)
-    - Lazy loading support for the admin modules [#7235](https://github.com/jhipster/generator-jhipster/pull/7235)
-    - Reworked entity create/edit screens, they are normal pages now instead of popup dialogs [#7368](https://github.com/jhipster/generator-jhipster/pull/7368)
+    - This includes a migration to Webpack 4, which gives a nice performance boost (it varies depending on your situation, but you can expect a noticeable positive impact) [#7186](https://github.com/bpmlabs/generator-jhipster/pull/7186)
+    - Lazy loading support for the admin modules [#7235](https://github.com/bpmlabs/generator-jhipster/pull/7235)
+    - Reworked entity create/edit screens, they are normal pages now instead of popup dialogs [#7368](https://github.com/bpmlabs/generator-jhipster/pull/7368)
     - Improved AOT setup
-    - The folder structure of entities have been improved, especially for microservices as now they are grouped by services. There is a `--skip-ui-grouping` flag to retain the old behaviour [#7079](https://github.com/jhipster/generator-jhipster/pull/7079)
-- Prettier support [#6906](https://github.com/jhipster/generator-jhipster/pull/6906)
+    - The folder structure of entities have been improved, especially for microservices as now they are grouped by services. There is a `--skip-ui-grouping` flag to retain the old behaviour [#7079](https://github.com/bpmlabs/generator-jhipster/pull/7079)
+- Prettier support [#6906](https://github.com/bpmlabs/generator-jhipster/pull/6906)
     - Both Angular and React now uses Prettier to format code.
     - This also adds [Husky](https://github.com/typicode/husky) and list-staged to enable pre-commit hooks
     - Please use the `skip-commit-hook` flag to disable the pre-commit hooks when generating the application
-- JDL v2 with application generation support [#7339](https://github.com/jhipster/generator-jhipster/pull/7339)
+- JDL v2 with application generation support [#7339](https://github.com/bpmlabs/generator-jhipster/pull/7339)
     - As a result, the language evolved dramatically, and you can now build full applications using the JDL, and not just entities. This is a huge news if you want to share and reuse your JHipster configuration.
 - New JHipster blueprints (still a work-in-progress)
-    - The blueprints system allows to easily extends and/or replace JHipster templates. This is how the new [JHipster Kotlin](https://github.com/jhipster/jhipster-kotlin) works. This isn’t well-documented yet, but JHipster Kotlin already gives a nice working example.
+    - The blueprints system allows to easily extends and/or replace JHipster templates. This is how the new [JHipster Kotlin](https://github.com/bpmlabs/bpmlabs-kotlin) works. This isn’t well-documented yet, but JHipster Kotlin already gives a nice working example.
 - Migration from PhantomJS to Puppeteer : as PhantomJS is not developed anymore [see the latest announcement from the maintainer](https://github.com/ariya/phantomjs/issues/15344) we have migrated our frontend tests to use the Headless Chromium browser provided by [Puppeteer](https://github.com/GoogleChrome/puppeteer). If you encounter problems puppeteer, refer to their [troubleshooting documentation](https://github.com/GoogleChrome/puppeteer/blob/master/docs/troubleshooting.md)
-- New Sub-generator to deploy to AWS containers [#7035](https://github.com/jhipster/generator-jhipster/pull/7035)
+- New Sub-generator to deploy to AWS containers [#7035](https://github.com/bpmlabs/generator-jhipster/pull/7035)
 - Removed AngularJS support
     - As we now focus on Angular 5+, we have removed our support for the older AngularJS 1.x
     - As a side effect support for Bower and Gulp also have been removed
@@ -81,36 +81,36 @@ It is also available using the JHipster Docker image, as it is automatically bui
 
 However, as this is a BETA release it will not be available using our other usual channels like:
 
-- [JHipster Online](https://start.jhipster.tech)
+- [JHipster Online](https://bpmlabs.github.io)
 - Homebrew
 - Chocolatey
-- [JHipster Devbox](https://github.com/jhipster/jhipster-devbox)
+- [JHipster Devbox](https://github.com/bpmlabs/bpmlabs-devbox)
 
 You also won’t be able to use the `jhipster upgrade` sub-generator, as it won’t “see” the BETA release, which is distributed through a specific beta channel on NPM.
 
 How you can help
 ------------
 
-If you find any issue, please [open a ticket](https://github.com/jhipster/generator-jhipster/issues) and follow our [guidelines](https://github.com/jhipster/generator-jhipster/blob/master/CONTRIBUTING.md).
+If you find any issue, please [open a ticket](https://github.com/bpmlabs/generator-jhipster/issues) and follow our [guidelines](https://github.com/bpmlabs/generator-jhipster/blob/master/CONTRIBUTING.md).
 
 We are expecting to do a stable release in the next 2 weeks, but please remember that most people on the team are doing this on their free time. So if your company is benefiting from JHipster, you can also help by telling your boss to [sponsor the project]({{ site.url }}/sponsors/) - that money will be used to reward contributors, and help us to release even better versions, more quickly!
 
 Do you want to know more?
 ------------
 
-All those new features will be showcased at the upcoming [JHipster Conf](https://jhipster-conf.github.io/) where most of the core development team will present their work. Join us in Paris on June, 21st!
+All those new features will be showcased at the upcoming [JHipster Conf](https://bpmlabs-conf.github.io/) where most of the core development team will present their work. Join us in Paris on June, 21st!
 
 Closed tickets and merged pull requests
 ------------
-As always, __[you can check all closed tickets and merged pull requests here](https://github.com/jhipster/generator-jhipster/issues?q=milestone%3A5.0.0-beta.0+is%3Aclosed)__.
+As always, __[you can check all closed tickets and merged pull requests here](https://github.com/bpmlabs/generator-jhipster/issues?q=milestone%3A5.0.0-beta.0+is%3Aclosed)__.
 
 Help and bugs
 --------------
 
 If you find any issue with this release, don't hesitate to:
 
-- Add a bug on our [bug tracker](https://github.com/jhipster/generator-jhipster/issues?state=open)
-- Post a question on [Stack Overflow](http://stackoverflow.com/tags/jhipster/info)
+- Add a bug on our [bug tracker](https://github.com/bpmlabs/generator-jhipster/issues?state=open)
+- Post a question on [Stack Overflow](http://stackoverflow.com/tags/bpmlabs/info)
 
 If the issue you have is an urgent bug or security issue, please:
 

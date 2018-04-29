@@ -50,12 +50,12 @@ Or when using Gradle, please type:
 This will generate two files (if your application is called "jhipster"):
 
 When using Maven:
-*   `target/jhipster-0.0.1-SNAPSHOT.war`
-*   `target/jhipster-0.0.1-SNAPSHOT.war.original`
+*   `target/bpmlabs-0.0.1-SNAPSHOT.war`
+*   `target/bpmlabs-0.0.1-SNAPSHOT.war.original`
 
 When using Gradle:
-*   `build/libs/jhipster-0.0.1-SNAPSHOT.war`
-*   `build/libs/jhipster-0.0.1-SNAPSHOT.war.original`
+*   `build/libs/bpmlabs-0.0.1-SNAPSHOT.war`
+*   `build/libs/bpmlabs-0.0.1-SNAPSHOT.war.original`
 
 The first one is an executable WAR file (see next section to run it). It can also be deployed on an application server, but as it includes runtime libraries, we recommend you use the second, `.original` file if you want to deploy JHipster on an application server like Tomcat, Weblogic or Websphere.
 
@@ -71,7 +71,7 @@ Instead of deploying to an application server, many people find it easier to jus
 
 The first WAR file generated in the previous step is such a WAR, so you can run it in "production" mode by typing (on Mac OS X or Linux):
 
-`./jhipster-0.0.1-SNAPSHOT.war`
+`./bpmlabs-0.0.1-SNAPSHOT.war`
 
 If you are on Windows, use:
 

@@ -11,11 +11,11 @@ What's new
 
 This is the first patch release for JHipster v4.4.0, which contains a fix for the following issue, which affects users who selected one of the Hazelcast options, with a monolith:
 
-- [Bean method 'eurekaRegistration' not loaded because @ConditionalOnProperty](https://github.com/jhipster/generator-jhipster/issues/5732)
+- [Bean method 'eurekaRegistration' not loaded because @ConditionalOnProperty](https://github.com/bpmlabs/generator-jhipster/issues/5732)
 
 Closed tickets and merged pull requests
 ------------
-As always, __[you can check all closed tickets and merged pull requests here](https://github.com/jhipster/generator-jhipster/issues?q=milestone%3A4.4.1+is%3Aclosed)__.
+As always, __[you can check all closed tickets and merged pull requests here](https://github.com/bpmlabs/generator-jhipster/issues?q=milestone%3A4.4.1+is%3Aclosed)__.
 
 How to upgrade
 ------------
@@ -60,8 +60,8 @@ Help and bugs
 
 If you find any issue with this release, don't hesitate to:
 
-- Add a bug on our [bug tracker](https://github.com/jhipster/generator-jhipster/issues?state=open)
-- Post a question on [Stack Overflow](http://stackoverflow.com/tags/jhipster/info)
+- Add a bug on our [bug tracker](https://github.com/bpmlabs/generator-jhipster/issues?state=open)
+- Post a question on [Stack Overflow](http://stackoverflow.com/tags/bpmlabs/info)
 
 If the issue you have is an urgent bug or security issue, please:
 

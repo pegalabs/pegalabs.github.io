@@ -13,13 +13,13 @@ This is the second patch release for JHipster v4.5.0. It corrects a few annoying
 
 In total, 50 bugs and PRs have been fixed, here are the most important changes:
 
-- Upgrade to the latest Angular 4.1.3 release [#5838](https://github.com/jhipster/generator-jhipster/pull/5838)
-- Hand-code the UserMapper as we don't want to force people to use MapStruct by default [#5808](https://github.com/jhipster/generator-jhipster/issues/5808)
-- Fix the LoggingAspect which wasn't working anymore [#5823](https://github.com/jhipster/generator-jhipster/issues/5823)
+- Upgrade to the latest Angular 4.1.3 release [#5838](https://github.com/bpmlabs/generator-jhipster/pull/5838)
+- Hand-code the UserMapper as we don't want to force people to use MapStruct by default [#5808](https://github.com/bpmlabs/generator-jhipster/issues/5808)
+- Fix the LoggingAspect which wasn't working anymore [#5823](https://github.com/bpmlabs/generator-jhipster/issues/5823)
 
 Closed tickets and merged pull requests
 ------------
-As always, __[you can check all closed tickets and merged pull requests here](https://github.com/jhipster/generator-jhipster/issues?q=milestone%3A4.5.2+is%3Aclosed)__.
+As always, __[you can check all closed tickets and merged pull requests here](https://github.com/bpmlabs/generator-jhipster/issues?q=milestone%3A4.5.2+is%3Aclosed)__.
 
 How to upgrade
 ------------
@@ -70,8 +70,8 @@ Help and bugs
 
 If you find any issue with this release, don't hesitate to:
 
-- Add a bug on our [bug tracker](https://github.com/jhipster/generator-jhipster/issues?state=open)
-- Post a question on [Stack Overflow](http://stackoverflow.com/tags/jhipster/info)
+- Add a bug on our [bug tracker](https://github.com/bpmlabs/generator-jhipster/issues?state=open)
+- Post a question on [Stack Overflow](http://stackoverflow.com/tags/bpmlabs/info)
 
 If the issue you have is an urgent bug or security issue, please:
 

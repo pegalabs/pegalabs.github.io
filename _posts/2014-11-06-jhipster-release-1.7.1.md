@@ -11,7 +11,7 @@ JHipster release 1.7.1
 What's new
 ----------
 
-This is just a minor release to add support to JodaTime's DateTime, thanks to [#696](https://github.com/jhipster/generator-jhipster/pull/696).
+This is just a minor release to add support to JodaTime's DateTime, thanks to [#696](https://github.com/bpmlabs/generator-jhipster/pull/696).
 We found this new feature so cool that we decided to share it immediately!
 
 How to upgrade
@@ -35,5 +35,5 @@ Help and bugs
 If you find any issue with this release, don't hesitate to:
 
 - Contact [@java_hipster](https://twitter.com/java_hipster) on Twitter
-- Add a bug on our [bug tracker](https://github.com/jhipster/generator-jhipster/issues?state=open)
-- Post a question on [Stack Overflow](http://stackoverflow.com/tags/jhipster/info)
+- Add a bug on our [bug tracker](https://github.com/bpmlabs/generator-jhipster/issues?state=open)
+- Post a question on [Stack Overflow](http://stackoverflow.com/tags/bpmlabs/info)

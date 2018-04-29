@@ -46,7 +46,7 @@ This configuration works out-of-the-box with JHipster: the only issue is that cl
 
 ## Getting started
 
-Please note that Traefik only works with [Consul]({{ site.url }}/consul/), so this cannot work if you use a [JHipster Registry]({{ site.url }}/jhipster-registry/).
+Please note that Traefik only works with [Consul]({{ site.url }}/consul/), so this cannot work if you use a [JHipster Registry]({{ site.url }}/bpmlabs-registry/).
 
 To use Traefik in a microservice architecture, run the [docker-compose sub-generator]({{ site.url }}/docker-compose/) and select Traefik when you have the question asking you which gateway you want to use.
 

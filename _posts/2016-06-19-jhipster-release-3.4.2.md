@@ -11,12 +11,12 @@ What's new
 
 This is a bug-fix version, and a recommended upgrade for all 3.4.1 users:
 
-- Fix an important bug making the JavaScript production builds fail [#3732](https://github.com/jhipster/generator-jhipster/issues/3732)
-- Upgrade Spring Cloud to Brixton SR1 [#3716](https://github.com/jhipster/generator-jhipster/issues/3716)
+- Fix an important bug making the JavaScript production builds fail [#3732](https://github.com/bpmlabs/generator-jhipster/issues/3732)
+- Upgrade Spring Cloud to Brixton SR1 [#3716](https://github.com/bpmlabs/generator-jhipster/issues/3716)
 
 Closed tickets
 ------------
-As always, __[you can check all closed tickets here](https://github.com/jhipster/generator-jhipster/issues?q=milestone%3A3.4.2+is%3Aclosed)__.
+As always, __[you can check all closed tickets here](https://github.com/bpmlabs/generator-jhipster/issues?q=milestone%3A3.4.2+is%3Aclosed)__.
 
 How to upgrade
 ------------
@@ -57,8 +57,8 @@ Help and bugs
 
 If you find any issue with this release, don't hesitate to:
 
-- Add a bug on our [bug tracker](https://github.com/jhipster/generator-jhipster/issues?state=open)
-- Post a question on [Stack Overflow](http://stackoverflow.com/tags/jhipster/info)
+- Add a bug on our [bug tracker](https://github.com/bpmlabs/generator-jhipster/issues?state=open)
+- Post a question on [Stack Overflow](http://stackoverflow.com/tags/bpmlabs/info)
 
 If the issue you have is an urgent bug or security issue, please:
 

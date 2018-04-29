@@ -13,14 +13,14 @@ This is the 7th patch release for JHipster 4.0.0.
 
 It includes 60 closed tickets and PRs, here are the most important ones:
 
-- Fix a bug that made Hazelcast session clustering fail [#5330](https://github.com/jhipster/generator-jhipster/issues/5330).
-- Registration page fixes [#5318](https://github.com/jhipster/generator-jhipster/issues/5318).
-- Fix OAuth2 security [#5303](https://github.com/jhipster/generator-jhipster/issues/5303).
-- Ehcache programmatic configuration (no XML) [#5286](https://github.com/jhipster/generator-jhipster/pull/5286).
+- Fix a bug that made Hazelcast session clustering fail [#5330](https://github.com/bpmlabs/generator-jhipster/issues/5330).
+- Registration page fixes [#5318](https://github.com/bpmlabs/generator-jhipster/issues/5318).
+- Fix OAuth2 security [#5303](https://github.com/bpmlabs/generator-jhipster/issues/5303).
+- Ehcache programmatic configuration (no XML) [#5286](https://github.com/bpmlabs/generator-jhipster/pull/5286).
 
 Closed tickets and merged pull requests
 ------------
-As always, __[you can check all closed tickets and merged pull requests here](https://github.com/jhipster/generator-jhipster/issues?q=milestone%3A4.0.7+is%3Aclosed)__.
+As always, __[you can check all closed tickets and merged pull requests here](https://github.com/bpmlabs/generator-jhipster/issues?q=milestone%3A4.0.7+is%3Aclosed)__.
 
 How to upgrade
 ------------
@@ -65,8 +65,8 @@ Help and bugs
 
 If you find any issue with this release, don't hesitate to:
 
-- Add a bug on our [bug tracker](https://github.com/jhipster/generator-jhipster/issues?state=open)
-- Post a question on [Stack Overflow](http://stackoverflow.com/tags/jhipster/info)
+- Add a bug on our [bug tracker](https://github.com/bpmlabs/generator-jhipster/issues?state=open)
+- Post a question on [Stack Overflow](http://stackoverflow.com/tags/bpmlabs/info)
 
 If the issue you have is an urgent bug or security issue, please:
 

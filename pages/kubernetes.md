@@ -158,7 +158,7 @@ data:
       bar: foobar
 ```
 
-By default, configuration servers run in development mode, which means that YAML property files are read directly from the filesystem and hot-reloaded on changes. For production it is advised to setup configuration from a Git repository as explained in our microservice documentation for the [JHipster-Registry config server]({{ site.url }}/jhipster-registry) and [Consul config server]({{ site.url }}/consul).
+By default, configuration servers run in development mode, which means that YAML property files are read directly from the filesystem and hot-reloaded on changes. For production it is advised to setup configuration from a Git repository as explained in our microservice documentation for the [JHipster-Registry config server]({{ site.url }}/bpmlabs-registry) and [Consul config server]({{ site.url }}/consul).
 
 ### Exposing headless services
 

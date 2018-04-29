@@ -35,7 +35,7 @@ The _User_ entity, which is a special entity handled by JHipster, has been modif
 - As usually you will want to restrict those entities to the current user, we also provide a helper Repository method, called _findAllForCurrentUser()_ which will be automatically generated
 - If you have a look at this method, you will see that we use the Spring Security Principal in a Spring Data JPA query. This is because we added [SpEL support in Spring Data JPA](https://spring.io/blog/2014/07/15/spel-support-in-spring-data-jpa-query-definitions)!
 
-And as always, __[you can check all the closed tickets here](https://github.com/jhipster/generator-jhipster/issues?q=milestone%3A2.5.0+is%3Aclosed)__.
+And as always, __[you can check all the closed tickets here](https://github.com/bpmlabs/generator-jhipster/issues?q=milestone%3A2.5.0+is%3Aclosed)__.
 
 How to upgrade
 ------------
@@ -58,5 +58,5 @@ Help and bugs
 If you find any issue with this release, don't hesitate to:
 
 - Contact [@java_hipster](https://twitter.com/java_hipster) on Twitter
-- Add a bug on our [bug tracker](https://github.com/jhipster/generator-jhipster/issues?state=open)
-- Post a question on [Stack Overflow](http://stackoverflow.com/tags/jhipster/info)
+- Add a bug on our [bug tracker](https://github.com/bpmlabs/generator-jhipster/issues?state=open)
+- Post a question on [Stack Overflow](http://stackoverflow.com/tags/bpmlabs/info)

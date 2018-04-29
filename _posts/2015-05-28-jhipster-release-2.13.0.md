@@ -22,11 +22,11 @@ DTO support is done with [MapStruct](http://mapstruct.org/) and is [fully docume
 
 Other noteworthy news are:
 
-- Support for Liquibase contexts [#1511](https://github.com/jhipster/generator-jhipster/pull/1511)
-- Cleaned up translations to use directives everywhere [#1537](https://github.com/jhipster/generator-jhipster/pull/1537)
+- Support for Liquibase contexts [#1511](https://github.com/bpmlabs/generator-jhipster/pull/1511)
+- Cleaned up translations to use directives everywhere [#1537](https://github.com/bpmlabs/generator-jhipster/pull/1537)
 
 
-And as always, __[you can check all the closed tickets here](https://github.com/jhipster/generator-jhipster/issues?q=milestone%3A2.13.0+is%3Aclosed)__.
+And as always, __[you can check all the closed tickets here](https://github.com/bpmlabs/generator-jhipster/issues?q=milestone%3A2.13.0+is%3Aclosed)__.
 
 How to upgrade
 ------------
@@ -55,5 +55,5 @@ Help and bugs
 If you find any issue with this release, don't hesitate to:
 
 - Contact [@java_hipster](https://twitter.com/java_hipster) on Twitter
-- Add a bug on our [bug tracker](https://github.com/jhipster/generator-jhipster/issues?state=open)
-- Post a question on [Stack Overflow](http://stackoverflow.com/tags/jhipster/info)
+- Add a bug on our [bug tracker](https://github.com/bpmlabs/generator-jhipster/issues?state=open)
+- Post a question on [Stack Overflow](http://stackoverflow.com/tags/bpmlabs/info)

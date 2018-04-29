@@ -11,11 +11,11 @@ What's new
 
 This is the first patch release for JHipster v4.11.0. The most important fix is this one, which should affect many microservice users:
 
-- [Building a production War with Maven fails for microservices](https://github.com/jhipster/generator-jhipster/issues/6741)
+- [Building a production War with Maven fails for microservices](https://github.com/bpmlabs/generator-jhipster/issues/6741)
 
 Closed tickets and merged pull requests
 ------------
-As always, __[you can check all closed tickets and merged pull requests here](https://github.com/jhipster/generator-jhipster/issues?q=milestone%3A4.11.1+is%3Aclosed)__.
+As always, __[you can check all closed tickets and merged pull requests here](https://github.com/bpmlabs/generator-jhipster/issues?q=milestone%3A4.11.1+is%3Aclosed)__.
 
 How to upgrade
 ------------
@@ -68,8 +68,8 @@ Help and bugs
 
 If you find any issue with this release, don't hesitate to:
 
-- Add a bug on our [bug tracker](https://github.com/jhipster/generator-jhipster/issues?state=open)
-- Post a question on [Stack Overflow](http://stackoverflow.com/tags/jhipster/info)
+- Add a bug on our [bug tracker](https://github.com/bpmlabs/generator-jhipster/issues?state=open)
+- Post a question on [Stack Overflow](http://stackoverflow.com/tags/bpmlabs/info)
 
 If the issue you have is an urgent bug or security issue, please:
 

@@ -11,9 +11,9 @@ JHipster release 0.12.0
 What's new
 ----------
 
-JHipster 0.12 comes with a lot of bug fixes and new features, which we have listed [here](https://github.com/jhipster/generator-jhipster/issues?milestone=1&page=1&state=closed).
+JHipster 0.12 comes with a lot of bug fixes and new features, which we have listed [here](https://github.com/bpmlabs/generator-jhipster/issues?milestone=1&page=1&state=closed).
 
-Most importantly, we have now moved "JHipster-Loaded", which allows us to have hot reload of Java code, to a specific project: [https://github.com/jhipster/jhipster-loaded](https://github.com/jhipster/jhipster-loaded).
+Most importantly, we have now moved "JHipster-Loaded", which allows us to have hot reload of Java code, to a specific project: [https://github.com/bpmlabs/bpmlabs-loaded](https://github.com/bpmlabs/bpmlabs-loaded).
 
 This means 3 things:
 
@@ -42,5 +42,5 @@ Help and bugs
 If you find any issue with this release, don't hesitate to:
 
 - Contact [@java_hipster](https://twitter.com/java_hipster) on Twitter
-- Add a bug on our [bug tracker](https://github.com/jhipster/generator-jhipster/issues?state=open)
-- Post a question on [Stack Overflow](http://stackoverflow.com/tags/jhipster/info)
+- Add a bug on our [bug tracker](https://github.com/bpmlabs/generator-jhipster/issues?state=open)
+- Post a question on [Stack Overflow](http://stackoverflow.com/tags/bpmlabs/info)

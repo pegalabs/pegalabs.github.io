@@ -16,9 +16,9 @@ Looking for the (old) JHipster v2.x documentation? It's [Here]({{ post.url }}/do
 What's new
 ----------
 
-This is a minor release to fix [#1419](https://github.com/jhipster/generator-jhipster/issues/1419), which was making hot reloading of CSS files fail.
+This is a minor release to fix [#1419](https://github.com/bpmlabs/generator-jhipster/issues/1419), which was making hot reloading of CSS files fail.
 
-And as always, __[you can check all the closed tickets here](https://github.com/jhipster/generator-jhipster/issues?q=milestone%3A2.9.1+is%3Aclosed)__.
+And as always, __[you can check all the closed tickets here](https://github.com/bpmlabs/generator-jhipster/issues?q=milestone%3A2.9.1+is%3Aclosed)__.
 
 How to upgrade
 ------------
@@ -47,5 +47,5 @@ Help and bugs
 If you find any issue with this release, don't hesitate to:
 
 - Contact [@java_hipster](https://twitter.com/java_hipster) on Twitter
-- Add a bug on our [bug tracker](https://github.com/jhipster/generator-jhipster/issues?state=open)
-- Post a question on [Stack Overflow](http://stackoverflow.com/tags/jhipster/info)
+- Add a bug on our [bug tracker](https://github.com/bpmlabs/generator-jhipster/issues?state=open)
+- Post a question on [Stack Overflow](http://stackoverflow.com/tags/bpmlabs/info)

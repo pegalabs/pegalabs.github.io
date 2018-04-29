@@ -1,9 +1,9 @@
 ---
 layout: default
 title: JHipster-UML
-permalink: /jhipster-uml/
+permalink: /bpmlabs-uml/
 redirect_from:
-  - /jhipster_uml.html
+  - /bpmlabs_uml.html
 sitemap:
     priority: 0.5
     lastmod: 2017-11-27T12:00:00-00:00
@@ -14,7 +14,7 @@ sitemap:
 
 JHipster-UML is a JHipster sub-project that can be used as a replacement to using the [entity sub-generator]({{ site.url }}/creating-an-entity/). The idea is that it is much easier to [manage relationships]({{ site.url }}/managing-relationships/) using a visual tool than with the classical Yeoman questions and answers.
 
-The JHipster-UML project is [available on GitHub](https://github.com/jhipster/jhipster-uml/), it is an Open Source project like JHipster (Apache 2.0 licence). If you like this project, don't forget to give us a star on GitHub!
+The JHipster-UML project is [available on GitHub](https://github.com/bpmlabs/bpmlabs-uml/), it is an Open Source project like JHipster (Apache 2.0 licence). If you like this project, don't forget to give us a star on GitHub!
 
 Here's what's covered on this page:
 
@@ -56,12 +56,12 @@ Here is a list of the editors we support:
 
 # <a name="issues"></a>Issues and bugs
 
-JHipster-UML is [available on GitHub](https://github.com/jhipster/jhipster-uml), and follows the same [contributing guidelines as JHipster](https://github.com/jhipster/generator-jhipster/blob/master/CONTRIBUTING.md).
+JHipster-UML is [available on GitHub](https://github.com/bpmlabs/bpmlabs-uml), and follows the same [contributing guidelines as JHipster](https://github.com/bpmlabs/generator-jhipster/blob/master/CONTRIBUTING.md).
 
 Please use our project for submitting issues and Pull Requests:
 
-- [JHipster-UML issue tracker](https://github.com/jhipster/jhipster-uml/issues)
-- [JHipster-UML Pull Requests](https://github.com/jhipster/jhipster-uml/pulls)
+- [JHipster-UML issue tracker](https://github.com/bpmlabs/bpmlabs-uml/issues)
+- [JHipster-UML Pull Requests](https://github.com/bpmlabs/bpmlabs-uml/pulls)
 
 When submitting anything, you must be as precise as possible:
   - **One posted issue must only have one problem** (or one demand/question);
@@ -93,11 +93,11 @@ If, however, you don't want to install the latest version globally because it do
     yarn add jhipster-uml --dev
   ```
 
-If you want the 'bleeding edge' (almost perfectly safe to use) version, you can clone our git repo from [our GitHub project](https://github.com/jhipster/jhipster-uml):
+If you want the 'bleeding edge' (almost perfectly safe to use) version, you can clone our git repo from [our GitHub project](https://github.com/bpmlabs/bpmlabs-uml):
 
-  `git clone https://github.com/jhipster/jhipster-uml.git` for HTTPS
+  `git clone https://github.com/bpmlabs/bpmlabs-uml.git` for HTTPS
 
-  `git clone git@github.com:jhipster/jhipster-uml.git` for SSH
+  `git clone git@github.com:jhipster/bpmlabs-uml.git` for SSH
 
 
 JHipster UML is a tool that _can_ be used with the JHipster's generator. If you're using the generator before v3.0.0, then you must use JHipster UML v1.6.5 (latest patch release). Otherwise, using v2.0.0+ is the choice for v3.0.0+ of the generator.
@@ -117,7 +117,7 @@ The class diagram should modelize the entities of your JHipster application doma
 Each entity is represented by a class, its fields are the class' attributes. An attribute must have a type supported by JHipster, otherwise it won't work. To have JHipster supported types like “BigDecimal”, “LocalDate”..., you can create a _PrimitiveType_ or a _DataType_ for it.
 You can look at the tables with all the types supported by JHipster and the validations you can use for each [here](#annexes).
 
-![Book Entity]({{ site.url }}/images/jhipsteruml_book_datatype.png)
+![Book Entity]({{ site.url }}/images/bpmlabsuml_book_datatype.png)
 
 Here is an example of a properly created class for JHipster. We have the attributes _publicationDate_ and price set with the types _BigDecimal_ and _LocalDate_ we created as _DataType._
 
@@ -130,39 +130,39 @@ Please note that we **only** support the relationships listed in the [Managing r
 
 
 #### One-to-One
-![One-to-One]({{ site.url }}/images/jhipsteruml_bi_oto.png)
+![One-to-One]({{ site.url }}/images/bpmlabsuml_bi_oto.png)
 
 Here, we have a bidirectional one-to-one relationship between Driver and Car, with Driver as the owner of the relationship.
 
 If you're looking for a unidirectional relationship:
 
-![One-to-One2]({{ site.url }}/images/jhipsteruml_uni_oto.png)
+![One-to-One2]({{ site.url }}/images/bpmlabsuml_uni_oto.png)
 
 Notice that in order to achieve a unidirectional relationship we just removed the `citizen` label so that `Passport` doesn't have it.
 
 
 #### One-to-Many
-![One-to-Many]({{ site.url }}/images/jhipsteruml_bi_otm.png)
+![One-to-Many]({{ site.url }}/images/bpmlabsuml_bi_otm.png)
 
 In this bidirectional relationship, an Owner can have many cars, and a Car can have only one owner.
 
 Unidirectional relationships for One-to-Many relationships are not (yet) supported by JHipster (see [this]({{ site.url }}/managing-relationships/#3) page for more information about this).
 This is an example of such an association:
 
-![One-to-Many2]({{ site.url }}/images/jhipsteruml_uni_otm.png)
+![One-to-Many2]({{ site.url }}/images/bpmlabsuml_uni_otm.png)
 
 
 #### Many-to-One
 
 As showed previously, the equivalent of a One-to-Many relationship is a Many-to-One:
 
-![One-to-Many2]({{ site.url }}/images/jhipsteruml_uni_mto.png)
+![One-to-Many2]({{ site.url }}/images/bpmlabsuml_uni_mto.png)
 
 Now the cars know their owner, but not the opposite.
 
 
 #### Many-to-Many
-![Many-to-Many]({{ site.url }}/images/jhipsteruml_bi_mtm.png)
+![Many-to-Many]({{ site.url }}/images/bpmlabsuml_bi_mtm.png)
 
 Here, we have a many-to-many relationship between Car (the owner) and Driver.
 
@@ -174,7 +174,7 @@ In a One-to-Many relationship you can add it in the 'Many' side of the relations
 
 - UML
 
-![otherEntityField One-to-Many]({{ site.url }}/images/jhipsteruml_otherEntityFieldOM.jpeg)
+![otherEntityField One-to-Many]({{ site.url }}/images/bpmlabsuml_otherEntityFieldOM.jpeg)
 
 - JDL
 
@@ -186,7 +186,7 @@ In a Many-to-Many relationship you can add it in the owner side of the entity:
 
 - UML
 
-![otherEntityField Many-to-Many]({{ site.url }}/images/jhipsteruml_otherEntityFieldMM.jpeg)
+![otherEntityField Many-to-Many]({{ site.url }}/images/bpmlabsuml_otherEntityFieldMM.jpeg)
 
 - JDL
 
@@ -196,7 +196,7 @@ In a Many-to-Many relationship you can add it in the owner side of the entity:
 
 
 #### Reflexivity cases
-![Reflexivity]({{ site.url }}/images/jhipsteruml_reflexivity.png)
+![Reflexivity]({{ site.url }}/images/bpmlabsuml_reflexivity.png)
 
 As you can see, there are 3 types of reflexivity. JHipster-UML only supports the first two (one-to-one and one-to-many). The many-to-many case is **not** supported because:
 
@@ -209,7 +209,7 @@ As you can see, there are 3 types of reflexivity. JHipster-UML only supports the
 We use a diagram from the Oracle HR example available [here](http://docs.oracle.com/cd/B28359_01/server.111/b28328/diagrams.htm#G5482).
 
 Here's a screenshot of such a diagram (from Modelio):  
-![HR UML diagram]({{ site.url }}/images/jhipsteruml_overviewdiagram.png)
+![HR UML diagram]({{ site.url }}/images/bpmlabsuml_overviewdiagram.png)
 
 As you can see, we changed it as to make it a bit more interesting.
 JHipster can generate entities and associations between them (one-to-one, one-to-many, etc.), and in this example we added every type of association (even the reflexive and the inheritance). JHipster doesn't support inheritance yet (but reflexivity is supported by JHipster, with a warning), but we decided to include it in the example so as to have a solid base to work with.
@@ -313,9 +313,9 @@ Each editor will be discussed here, so that you know how to get a good XMI file.
 **Note : JHipster-UML can detect faulty XMI files, it will display the first error it finds and exit right away (fail-fast behavior).**
 
 In JHipster-UML, each editor has been tested with the Oracle example. If you wish to see the examples in a "dummy project", you just have to download these files for each editor, and test JHipster and JHipster-UML:
-  - For Modelio: [modelio.xmi](https://github.com/jhipster/jhipster-uml/blob/master/test/xmi/modelio.xmi);
-  - For UML Designer: [umldesigner.uml](https://github.com/jhipster/jhipster-uml/blob/master/test/xmi/umldesigner.uml);
-  - For GenMyModel: [genmymodel_evolve.xmi](https://github.com/jhipster/jhipster-uml/blob/master/test/xmi/genmymodel_evolve.xmi).
+  - For Modelio: [modelio.xmi](https://github.com/bpmlabs/bpmlabs-uml/blob/master/test/xmi/modelio.xmi);
+  - For UML Designer: [umldesigner.uml](https://github.com/bpmlabs/bpmlabs-uml/blob/master/test/xmi/umldesigner.uml);
+  - For GenMyModel: [genmymodel_evolve.xmi](https://github.com/bpmlabs/bpmlabs-uml/blob/master/test/xmi/genmymodel_evolve.xmi).
 
 
 ## <a name="modelioexample"></a>Modelio
@@ -329,11 +329,11 @@ In JHipster-UML, each editor has been tested with the Oracle example. If you wis
 
 Modelio can be downloaded for free [here](https://www.modelio.org/). Make sure you have Java 8 if you're downloading any of the 3.3+ versions (it won't work otherwise).
 
-The example file is [here](https://github.com/jhipster/jhipster-uml/blob/master/test/xmi/modelio.xmi).
+The example file is [here](https://github.com/bpmlabs/bpmlabs-uml/blob/master/test/xmi/modelio.xmi).
 
 Once launched, create a project and you'll be seeing this view:
 
-![Empty Modelio project]({{ site.url }}/images/jhipsteruml_modelio_1.png)
+![Empty Modelio project]({{ site.url }}/images/bpmlabsuml_modelio_1.png)
 
 Notice the left panel entitled 'Class Model'. You only need the 'Class', 'Attributes', 'Aggregation', 'Composition' and 'Data Type' objects.
 You can already guess why you need the first 2. The 'Aggregation' object is used to defined aggregations:
@@ -349,7 +349,7 @@ Finally, 'Data Types' objects enables you to create custom types (types that are
 
 In this example, we'll explain how to connect two classes:
 
-![Modelio composition example]({{ site.url }}/images/jhipsteruml_modelio_2.png)
+![Modelio composition example]({{ site.url }}/images/bpmlabsuml_modelio_2.png)
 
 As you can see, employee has a job (but also can have no job at all). The parser will notice a few things:
 
@@ -369,7 +369,7 @@ Modelio supports constraints. Double-click on a field, go to the 'Notes and cons
 
 Finally, once your diagram is finished, you just have to export it.
 
-![Export to XMI Modelio]({{ site.url }}/images/jhipsteruml_modelio_3.png)
+![Export to XMI Modelio]({{ site.url }}/images/bpmlabsuml_modelio_3.png)
 
 Check the Model perspective, once you locate your project, get down one level and right click the last element (you lower-cased project's name), XMI, Export XMI. A window should pop up, select the output path, change the compatibility to OMG UML2.4.1, leave the extension to XMI and you're ready to go.
 
@@ -378,7 +378,7 @@ Check the Model perspective, once you locate your project, get down one level an
 
 To comment a class (or an attribute), just double-click on the element, select the `Notes and constraints` tab, and add a `note`.
 
-![Modelio, commenting]({{ site.url }}/images/jhipsteruml_modelio_commenting.png)
+![Modelio, commenting]({{ site.url }}/images/bpmlabsuml_modelio_commenting.png)
 
 Please note that commenting relationships is not possible with this editor.
 
@@ -390,11 +390,11 @@ It works the same way as Eclipse.
 To create an empty project, just click on File -> New -> Modeling Project. Enter the name, and validate.
 If no file.uml is created, right-click on your project, and New -> Other -> UML Designer -> UML Model, and enter any name you want.
 
-The example XMI file is available [here](https://github.com/jhipster/jhipster-uml/blob/master/test/xmi/umldesigner.uml).
+The example XMI file is available [here](https://github.com/bpmlabs/bpmlabs-uml/blob/master/test/xmi/umldesigner.uml).
 
 You'll then be presented by a view like this one:
 
-![UML Designer, dashboard]({{ site.url }}/images/jhipsteruml_umldesigner_1.png)
+![UML Designer, dashboard]({{ site.url }}/images/bpmlabsuml_umldesigner_1.png)
 
 Double-click on 'Class diagram' under 'Design' category.
 You can now see on the right the 'Palette'. You only need these objects: 'Class', 'PrimitiveType', 'DataType' (both under 'Enumeration'), 'Composition' and 'Aggregation' (both under 'Association').
@@ -403,7 +403,7 @@ With UML Designer, you can create custom types by either using a DataType or a P
 
 Here is an example using this editor:
 
-![Employee and Job with UML Designer]({{ site.url }}/images/jhipsteruml_umldesigner_2.png)
+![Employee and Job with UML Designer]({{ site.url }}/images/bpmlabsuml_umldesigner_2.png)
 
 To create attributes, just double-click on the class, and add your attribute. You can import types by right-clicking somewhere on the diagram (in the white-space), then import Primitive Types, then select UML and Java.
 This will spare you the _chore_ of creating types manually (with DataTypes or PrimitiveTypes).
@@ -421,25 +421,25 @@ This editor supports unidirectional relationships. To do that, create the relati
 
 Commenting is possible for classes and attributes (not relationships), and achieving this is pretty easy: click on an element, and select `comment` to add your own.
 
-![Uml Designer, commenting]({{ site.url }}/images/jhipsteruml_umldesigner_commenting.png)
+![Uml Designer, commenting]({{ site.url }}/images/bpmlabsuml_umldesigner_commenting.png)
 
 
 ## <a name="genmymodelexample"></a>GenMyModel
 
 GenMyModel is an in-browser UML editor that can be found [here](https://dashboard.genmymodel.com/). You can use it for free but with restrictions, we hope that this editor will enable users to fiddle around with JHipster-UML without the constraint of downloading an application.
 
-The XMI file example is located [here](https://github.com/jhipster/jhipster-uml/blob/master/test/xmi/genmymodel_evolve.xmi).
+The XMI file example is located [here](https://github.com/bpmlabs/bpmlabs-uml/blob/master/test/xmi/genmymodel_evolve.xmi).
 
 After signing up go in Projects ->  New Projects, give a it name, in Model Type choose UML, in default diagram choose Class Diagram and then click on Create project.
 Then this screen will be displayed:
 
-![GenMyModel dashbord]({{ site.url }}/images/jhipsteruml_genmymodel_empty_diagram.png)
+![GenMyModel dashbord]({{ site.url }}/images/bpmlabsuml_genmymodel_empty_diagram.png)
 
 On the panel on the left of the grid, is all the elements possible to make a diagram. We will need only the elements 'Class', 'DataType', 'Attribute', 'Aggregation' and 'Composition'. You can use either 'Aggregation' or 'Composition', the parser will only see the association between two classes and its cardinality.
 
 Here is an example on how to create two entities with a one-to-many relationship between them and the declaration of the JHipster types through 'DataType':
 
-![GenMyModel diagram]({{ site.url }}/images/jhipsteruml_genmymodel_relation.png)
+![GenMyModel diagram]({{ site.url }}/images/bpmlabsuml_genmymodel_relation.png)
 
 The parser will notice a few things:
 
@@ -466,7 +466,7 @@ In GenMyModel, creating unidirectional relationships is pretty easy: just remove
 
 For instance, take this simple case:
 
-![GenMyModel, unidirectional]({{ site.url }}/images/jhipsteruml_genmymodel_unidirectional.png)
+![GenMyModel, unidirectional]({{ site.url }}/images/bpmlabsuml_genmymodel_unidirectional.png)
 
 Here, `MyClass` will have a `myClass2` attribute, but `MyClass2` won't have a `myClass` field.
 
@@ -477,7 +477,7 @@ Commenting is available for classes, attributes and relationship fields.
 
 Just click on an element and write a comment in the description field.
 
-![GenMyModel, commenting]({{ site.url }}/images/jhipsteruml_genmymodel_commenting.png)
+![GenMyModel, commenting]({{ site.url }}/images/bpmlabsuml_genmymodel_commenting.png)
 
 
 ## <a name="#othereditors"></a> Other editors
@@ -540,7 +540,7 @@ We follow the same guidelines as JHipster, with a few additions:
 
   - The same goes for enhancements.
 
-<b>Note: Post PRs and Issues on JHipster-UML's github page, [here](https://github.com/jhipster/jhipster-uml). Not on the main JHipster page.</b>
+<b>Note: Post PRs and Issues on JHipster-UML's github page, [here](https://github.com/bpmlabs/bpmlabs-uml). Not on the main JHipster page.</b>
 
 ## <a name="parsermodifications"></a>Parser modifications
 
@@ -553,7 +553,7 @@ The 1.0.0 release brings a new parser system making any change (parser creation,
 
 Adding a parser is quite easy. If you're a Java dev, you're probably quite familiar with OOP principles (we hope so anyway). When developing JHipster-UML, we thought of its architecture as we'd _normally_ do in Java.
 
-You just have to "extend" our abstract parser ([AbstractParser](https://github.com/jhipster/jhipster-uml/blob/master/lib/editors/abstract_parser.js)), or implement our interface ([Parser](https://github.com/jhipster/jhipster-uml/blob/master/lib/editors/parser.js)) to add your concrete implementation of a parser.
+You just have to "extend" our abstract parser ([AbstractParser](https://github.com/bpmlabs/bpmlabs-uml/blob/master/lib/editors/abstract_parser.js)), or implement our interface ([Parser](https://github.com/bpmlabs/bpmlabs-uml/blob/master/lib/editors/parser.js)) to add your concrete implementation of a parser.
 
 You should notice that some methods of the Parser interface throw an _UnimplementedOperationException_. This idea is obviously taken from Java, and you can implement this methods in your concrete parser.
 
@@ -563,7 +563,7 @@ Just like in Java, you can override any method you want, and create your own. Yo
 
 The AbstractParser class provides some fields, a default constructor and some methods so that you don't have to create or implement them later.
 
-Obviously, you _should_ implement each of these methods (or override the [#parse](https://github.com/jhipster/jhipster-uml/blob/master/lib/editors/parser.js#L13) or [#findElements](https://github.com/jhipster/jhipster-uml/blob/master/lib/editors/parser.js#L25) methods).
+Obviously, you _should_ implement each of these methods (or override the [#parse](https://github.com/bpmlabs/bpmlabs-uml/blob/master/lib/editors/parser.js#L13) or [#findElements](https://github.com/bpmlabs/bpmlabs-uml/blob/master/lib/editors/parser.js#L25) methods).
 
 The getters are not mandatory, but serve as a way of getting some important fields and provide a way to modify them before sending those fields.
 
@@ -572,11 +572,11 @@ The getters are not mandatory, but serve as a way of getting some important fiel
 
 When you're done creating your shiny new parser, you should add it to the "list" of available editors:
 
-- Require it first just like [here](https://github.com/jhipster/jhipster-uml/blob/master/lib/editors/editors.js#L3);
+- Require it first just like [here](https://github.com/bpmlabs/bpmlabs-uml/blob/master/lib/editors/editors.js#L3);
 
-- Make it available just like [here](https://github.com/jhipster/jhipster-uml/blob/master/lib/editors/editors.js#L9);
+- Make it available just like [here](https://github.com/bpmlabs/bpmlabs-uml/blob/master/lib/editors/editors.js#L9);
 
-- Add it to the list just like [here](https://github.com/jhipster/jhipster-uml/blob/master/lib/editors/editors.js#L16).
+- Add it to the list just like [here](https://github.com/bpmlabs/bpmlabs-uml/blob/master/lib/editors/editors.js#L16).
 
 However, a few guidelines must be respected:
 
@@ -586,13 +586,13 @@ However, a few guidelines must be respected:
 
 - The editor's class name must be capitalized (Modelio -> `ModelioParser`, UML Designer -> `UMLDesignerParser`).
 
-Concerning the EditorDetector, it can detect the editor that created your XMI file. For that to happen, you must first locate where the editor is mentionned in the XMI file, and then add the code that returns your editor just like [here](https://github.com/jhipster/jhipster-uml/blob/master/lib/editors/editor_detector.js#L23). If your editor can't be detected, add it [here](https://github.com/jhipster/jhipster-uml/blob/master/lib/editors/editors.js#L23), and indicate its name just like it has been done for UML Designer [here](https://github.com/jhipster/jhipster-uml/blob/master/lib/editors/editor_detector.js#L56).
+Concerning the EditorDetector, it can detect the editor that created your XMI file. For that to happen, you must first locate where the editor is mentionned in the XMI file, and then add the code that returns your editor just like [here](https://github.com/bpmlabs/bpmlabs-uml/blob/master/lib/editors/editor_detector.js#L23). If your editor can't be detected, add it [here](https://github.com/bpmlabs/bpmlabs-uml/blob/master/lib/editors/editors.js#L23), and indicate its name just like it has been done for UML Designer [here](https://github.com/bpmlabs/bpmlabs-uml/blob/master/lib/editors/editor_detector.js#L56).
 
 
 #### Testing
 
 Finally, the next thing you'll need to do before committing your super parser is test it.
-Because we believe in testing, but really like good testing (with BDD), our tests are done with Mocha and chai. If you don't know what it's all about yet, we recommend you visit the [ChaiJS](http://chaijs.com/) page, and see [one](https://github.com/jhipster/jhipster-uml/blob/master/test/editors/modelio_parser_test.js) of our test file to get acquainted with it.
+Because we believe in testing, but really like good testing (with BDD), our tests are done with Mocha and chai. If you don't know what it's all about yet, we recommend you visit the [ChaiJS](http://chaijs.com/) page, and see [one](https://github.com/bpmlabs/bpmlabs-uml/blob/master/test/editors/modelio_parser_test.js) of our test file to get acquainted with it.
 
 You should probably wonder what form of testing you should use. The answer is pretty simple: it's up to you! Whether it's [should](http://chaijs.com/guide/styles/#should), or [expect](http://chaijs.com/guide/styles/#expect) (à la RSpec), we don't enforce any special rule here. We, however, recommend using Expect because we do, and it should keep the tests fairly easy to understand.
 
@@ -615,14 +615,14 @@ Changing a parser (and then committing the change) is pretty straightforward: ju
 
 You can make an XMI file if you need a test to pass (exception throwing, or not, etc.).
 
-Don't forget to modify the [editor detector](https://github.com/jhipster/jhipster-uml/blob/master/lib/editors/editor_detector.js) if you change any name.
+Don't forget to modify the [editor detector](https://github.com/bpmlabs/bpmlabs-uml/blob/master/lib/editors/editor_detector.js) if you change any name.
 
 ### Deleting a parser
 
 Removing a parser is quite an easy thing to do.
 First, remove it from the editors (`editors/editors.js`) and then remove it from the EditorDetector (`editors/editor_detector.js`). Finally, just remove the parser file and the test created for it.
 
-Don't forget to modify the [editor detector](https://github.com/jhipster/jhipster-uml/blob/master/lib/editors/editor_detector.js#L38) if you delete any parser.
+Don't forget to modify the [editor detector](https://github.com/bpmlabs/bpmlabs-uml/blob/master/lib/editors/editor_detector.js#L38) if you delete any parser.
 
 ***
 

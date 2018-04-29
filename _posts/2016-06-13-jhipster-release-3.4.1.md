@@ -11,13 +11,13 @@ What's new
 
 This is a bug-fix version, with 2 notable changes:
 
-- The "Upgrade sub-generator" has been modified, please read [#3696](https://github.com/jhipster/generator-jhipster/issues/3696) before using it! This website has been updated with the latest documentation, be sure to read [JHipster upgrade sub-generator]({{ site.url }}/upgrading-an-application/) before running the sub-generator.
-- We still recommend using a NodeJS LTS (Long Term Support) version, but if you want to live on the bleeding edge, NodeJS 6.x should now work correctly [#3663](https://github.com/jhipster/generator-jhipster/issues/3663)
-- Docker images containing JHipster applications should now be 40% smaller! [#3700](https://github.com/jhipster/generator-jhipster/issues/3700)
+- The "Upgrade sub-generator" has been modified, please read [#3696](https://github.com/bpmlabs/generator-jhipster/issues/3696) before using it! This website has been updated with the latest documentation, be sure to read [JHipster upgrade sub-generator]({{ site.url }}/upgrading-an-application/) before running the sub-generator.
+- We still recommend using a NodeJS LTS (Long Term Support) version, but if you want to live on the bleeding edge, NodeJS 6.x should now work correctly [#3663](https://github.com/bpmlabs/generator-jhipster/issues/3663)
+- Docker images containing JHipster applications should now be 40% smaller! [#3700](https://github.com/bpmlabs/generator-jhipster/issues/3700)
 
 Closed tickets
 ------------
-As always, __[you can check all closed tickets here](https://github.com/jhipster/generator-jhipster/issues?q=milestone%3A3.4.1+is%3Aclosed)__.
+As always, __[you can check all closed tickets here](https://github.com/bpmlabs/generator-jhipster/issues?q=milestone%3A3.4.1+is%3Aclosed)__.
 
 How to upgrade
 ------------
@@ -58,8 +58,8 @@ Help and bugs
 
 If you find any issue with this release, don't hesitate to:
 
-- Add a bug on our [bug tracker](https://github.com/jhipster/generator-jhipster/issues?state=open)
-- Post a question on [Stack Overflow](http://stackoverflow.com/tags/jhipster/info)
+- Add a bug on our [bug tracker](https://github.com/bpmlabs/generator-jhipster/issues?state=open)
+- Post a question on [Stack Overflow](http://stackoverflow.com/tags/bpmlabs/info)
 
 If the issue you have is an urgent bug or security issue, please:
 

@@ -19,12 +19,12 @@ Our Angular 4 support is now ready for production:
 
 **Other important news**
 
-- Upgrade to Gradle 4 (see [#5949](https://github.com/jhipster/generator-jhipster/pull/5949)), which has some excellent performance improvements according to our initial tests.
-- Farsi language support (see [#5961](https://github.com/jhipster/generator-jhipster/pull/5961)), which means we do support right-to-left languages!
+- Upgrade to Gradle 4 (see [#5949](https://github.com/bpmlabs/generator-jhipster/pull/5949)), which has some excellent performance improvements according to our initial tests.
+- Farsi language support (see [#5961](https://github.com/bpmlabs/generator-jhipster/pull/5961)), which means we do support right-to-left languages!
 
 **Minor improvements**
 
-In total, this release has 72 closed tickets and pull requests, out of which 11 were marked `invalid`. This is an improvement over the past releases, but please if you have a question or a bug, don't spam the development team and follow [our guidelines](https://github.com/jhipster/generator-jhipster/blob/master/CONTRIBUTING.md).
+In total, this release has 72 closed tickets and pull requests, out of which 11 were marked `invalid`. This is an improvement over the past releases, but please if you have a question or a bug, don't spam the development team and follow [our guidelines](https://github.com/bpmlabs/generator-jhipster/blob/master/CONTRIBUTING.md).
 
 **Deprecation warning (for module developers)**
 
@@ -32,17 +32,17 @@ The JHipster Module sub generator is deprecated. We now recommend using commonJS
 
 Closed tickets and merged pull requests
 ------------
-As always, __[you can check all closed tickets and merged pull requests here](https://github.com/jhipster/generator-jhipster/issues?q=milestone%3A4.6.0+is%3Aclosed)__.
+As always, __[you can check all closed tickets and merged pull requests here](https://github.com/bpmlabs/generator-jhipster/issues?q=milestone%3A4.6.0+is%3Aclosed)__.
 
 How to upgrade
 ------------
 
 **Automatic upgrade**
 
-WARNING [this has been fixed very recently](https://github.com/jhipster/generator-jhipster/pull/5966), so if you have trouble with this:
+WARNING [this has been fixed very recently](https://github.com/bpmlabs/generator-jhipster/pull/5966), so if you have trouble with this:
 
 - You can still do a "manual upgrade" (see below)
-- If you find anything helpful for us, please send us comments on ticket [#5883](https://github.com/jhipster/generator-jhipster/issues/5883)
+- If you find anything helpful for us, please send us comments on ticket [#5883](https://github.com/bpmlabs/generator-jhipster/issues/5883)
 - If you have time and want to help, don't hesitate to contribute on this part!
 
 For an automatic upgrade, use the [JHipster upgrade sub-generator]({{ site.url }}/upgrading-an-application/) on an existing application:
@@ -91,8 +91,8 @@ Help and bugs
 
 If you find any issue with this release, don't hesitate to:
 
-- Add a bug on our [bug tracker](https://github.com/jhipster/generator-jhipster/issues?state=open)
-- Post a question on [Stack Overflow](http://stackoverflow.com/tags/jhipster/info)
+- Add a bug on our [bug tracker](https://github.com/bpmlabs/generator-jhipster/issues?state=open)
+- Post a question on [Stack Overflow](http://stackoverflow.com/tags/bpmlabs/info)
 
 If the issue you have is an urgent bug or security issue, please:
 

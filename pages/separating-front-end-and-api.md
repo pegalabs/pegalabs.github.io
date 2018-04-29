@@ -42,7 +42,7 @@ If you have separate teams working on the front-end and back-end, you have two s
 
 Once the front-end and back-end have been separated, the issue will be how to handle HTTP requests:
 
-- All API calls will use a `/api` prefix. If you are using Angular, there is also a specific `SERVER_API_URL` constant, defined in the `webpack.common.js` configuration, that can enrich this prefix. For example, you can use `"http://api.jhipster.tech:8081/"` as a back-end API server (If you do this, please read our documentation on CORS below).
+- All API calls will use a `/api` prefix. If you are using Angular, there is also a specific `SERVER_API_URL` constant, defined in the `webpack.common.js` configuration, that can enrich this prefix. For example, you can use `"https://bpmlabs.github.io:8081/"` as a back-end API server (If you do this, please read our documentation on CORS below).
 - Calls to `/` serve static assets (from the front-end), which should not be cached by the browser.
 - Calls to `/app` (which contains the client-side application) and to `/content` (which contains the static content, like images and CSS) should be cached in production, as those assets are hashed.
 
@@ -96,19 +96,19 @@ It also reads a `./nginx/site.conf` file: this is a NGinx-specific configuration
             root /usr/share/nginx/html;
         }
         location /api {
-            proxy_pass http://api.jhipster.tech:8081/api;
+            proxy_pass https://bpmlabs.github.io:8081/api;
         }
         location /management {
-            proxy_pass http://api.jhipster.tech:8081/management;
+            proxy_pass https://bpmlabs.github.io:8081/management;
         }
         location /v2 {
-           proxy_pass http://api.jhipster.tech:8081/v2;
+           proxy_pass https://bpmlabs.github.io:8081/v2;
         }
         location /swagger-ui {
-            proxy_pass http://api.jhipster.tech:8081/swagger-ui;
+            proxy_pass https://bpmlabs.github.io:8081/swagger-ui;
         }
         location /swagger-resources {
-            proxy_pass http://api.jhipster.tech:8081/swagger-resources;
+            proxy_pass https://bpmlabs.github.io:8081/swagger-resources;
         }
     }
 
@@ -116,6 +116,6 @@ This configuration means that:
 
 - NGinx will run on port `80`
 - It will read the static assets in folder `/usr/share/nginx/html`, and
-- It will act as a proxy from `/api` to `http://api.jhipster.tech:8081/api`
+- It will act as a proxy from `/api` to `https://bpmlabs.github.io:8081/api`
 
 This configuration will require some tuning depending on your specific needs, but should be a good enough starting point for most applications.

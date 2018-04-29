@@ -9,7 +9,7 @@ JHipster release 4.1.0
 What's new
 ----------
 
-This is a minor release, as we migrated to Yeoman 1.0 (see [#5331](https://github.com/jhipster/generator-jhipster/pull/5331)). This means we had to refactor a lot of code, including all the sub-generators. If you are using modules from [our marketplace]({{ site.url }}/modules/marketplace), they *should* work, but we recommend that all module authors check their code with this new version.
+This is a minor release, as we migrated to Yeoman 1.0 (see [#5331](https://github.com/bpmlabs/generator-jhipster/pull/5331)). This means we had to refactor a lot of code, including all the sub-generators. If you are using modules from [our marketplace]({{ site.url }}/modules/marketplace), they *should* work, but we recommend that all module authors check their code with this new version.
 
 The JHipster Registry reached release v2.6.0, with a new Spring Cloud version, and more aggressive Eureka timeouts, which should be better for normal use cases (if you have hundreds or thousands of microservices, you might consider raising those numbers again). In our roadmap, we expect to have new major release of the JHipster Registry, which should be able to monitor all monoliths, gateways and microservices in one single place.
 
@@ -17,7 +17,7 @@ We also closed 51 issues and pull requests (see the list below), and upgraded ma
 
 Closed tickets and merged pull requests
 ------------
-As always, __[you can check all closed tickets and merged pull requests here](https://github.com/jhipster/generator-jhipster/issues?q=milestone%3A4.1.0+is%3Aclosed)__.
+As always, __[you can check all closed tickets and merged pull requests here](https://github.com/bpmlabs/generator-jhipster/issues?q=milestone%3A4.1.0+is%3Aclosed)__.
 
 How to upgrade
 ------------
@@ -62,8 +62,8 @@ Help and bugs
 
 If you find any issue with this release, don't hesitate to:
 
-- Add a bug on our [bug tracker](https://github.com/jhipster/generator-jhipster/issues?state=open)
-- Post a question on [Stack Overflow](http://stackoverflow.com/tags/jhipster/info)
+- Add a bug on our [bug tracker](https://github.com/bpmlabs/generator-jhipster/issues?state=open)
+- Post a question on [Stack Overflow](http://stackoverflow.com/tags/bpmlabs/info)
 
 If the issue you have is an urgent bug or security issue, please:
 

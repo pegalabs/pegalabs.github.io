@@ -11,17 +11,17 @@ What's new
 
 110 issues and PRs have been closed in this release, the most important being:
 
-- Several libraries upgrade: Gradle [#3849](https://github.com/jhipster/generator-jhipster/pull/3849), Spring Cloud [#3836](https://github.com/jhipster/generator-jhipster/pull/3836), the Maven Docker plugin [#3801](https://github.com/jhipster/generator-jhipster/pull/3801)
-- As a result of those upgrades, [JHipster Registry](https://github.com/jhipster/jhipster-registry) v2.3.0 has been released, and the generator now uses this new version
-- The JDL import sub-generator is back! [#3532](https://github.com/jhipster/generator-jhipster/issues/3532)
-- Upgrade sub-generator doesn't commit on jhipster_upgrade branch from second upgrade [#3757](https://github.com/jhipster/generator-jhipster/issues/3757)
-- A new "swagger" profile to use both in dev and prod modes [#3402](https://github.com/jhipster/generator-jhipster/issues/3402)
-- JSON pretty print in dev mode [#3830](https://github.com/jhipster/generator-jhipster/issues/3830)
-- Better SpringFox configuration for pagination parameters [#3844](https://github.com/jhipster/generator-jhipster/pull/3844)
+- Several libraries upgrade: Gradle [#3849](https://github.com/bpmlabs/generator-jhipster/pull/3849), Spring Cloud [#3836](https://github.com/bpmlabs/generator-jhipster/pull/3836), the Maven Docker plugin [#3801](https://github.com/bpmlabs/generator-jhipster/pull/3801)
+- As a result of those upgrades, [JHipster Registry](https://github.com/bpmlabs/bpmlabs-registry) v2.3.0 has been released, and the generator now uses this new version
+- The JDL import sub-generator is back! [#3532](https://github.com/bpmlabs/generator-jhipster/issues/3532)
+- Upgrade sub-generator doesn't commit on jhipster_upgrade branch from second upgrade [#3757](https://github.com/bpmlabs/generator-jhipster/issues/3757)
+- A new "swagger" profile to use both in dev and prod modes [#3402](https://github.com/bpmlabs/generator-jhipster/issues/3402)
+- JSON pretty print in dev mode [#3830](https://github.com/bpmlabs/generator-jhipster/issues/3830)
+- Better SpringFox configuration for pagination parameters [#3844](https://github.com/bpmlabs/generator-jhipster/pull/3844)
 
 Closed tickets
 ------------
-As always, __[you can check all closed tickets here](https://github.com/jhipster/generator-jhipster/issues?q=milestone%3A3.5.0+is%3Aclosed)__.
+As always, __[you can check all closed tickets here](https://github.com/bpmlabs/generator-jhipster/issues?q=milestone%3A3.5.0+is%3Aclosed)__.
 
 How to upgrade
 ------------
@@ -62,8 +62,8 @@ Help and bugs
 
 If you find any issue with this release, don't hesitate to:
 
-- Add a bug on our [bug tracker](https://github.com/jhipster/generator-jhipster/issues?state=open)
-- Post a question on [Stack Overflow](http://stackoverflow.com/tags/jhipster/info)
+- Add a bug on our [bug tracker](https://github.com/bpmlabs/generator-jhipster/issues?state=open)
+- Post a question on [Stack Overflow](http://stackoverflow.com/tags/bpmlabs/info)
 
 If the issue you have is an urgent bug or security issue, please:
 

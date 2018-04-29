@@ -11,13 +11,13 @@ What's new
 
 This is a patch release, that corrects a few minor bugs.
 
-The biggest new feature is the support of Microsoft SQL Server, now that it is available as a Docker image. See [#4518](https://github.com/jhipster/generator-jhipster/issues/4518) for more information.
+The biggest new feature is the support of Microsoft SQL Server, now that it is available as a Docker image. See [#4518](https://github.com/bpmlabs/generator-jhipster/issues/4518) for more information.
 
 This release will be used as a base for our upcoming Angular 2 migration: we will merge very soon the Angular 2 code into our master branch, so you can expect an alpha release of JHipster 4 very soon.
 
 Closed tickets and merged pull requests
 ------------
-As always, __[you can check all closed tickets and merged pull requests here](https://github.com/jhipster/generator-jhipster/issues?q=milestone%3A3.12.1+is%3Aclosed)__.
+As always, __[you can check all closed tickets and merged pull requests here](https://github.com/bpmlabs/generator-jhipster/issues?q=milestone%3A3.12.1+is%3Aclosed)__.
 
 How to upgrade
 ------------
@@ -58,8 +58,8 @@ Help and bugs
 
 If you find any issue with this release, don't hesitate to:
 
-- Add a bug on our [bug tracker](https://github.com/jhipster/generator-jhipster/issues?state=open)
-- Post a question on [Stack Overflow](http://stackoverflow.com/tags/jhipster/info)
+- Add a bug on our [bug tracker](https://github.com/bpmlabs/generator-jhipster/issues?state=open)
+- Post a question on [Stack Overflow](http://stackoverflow.com/tags/bpmlabs/info)
 
 If the issue you have is an urgent bug or security issue, please:
 

@@ -17,9 +17,9 @@ Most of the JHipster development team uses Oh-My-Zsh, and if you see people usin
 
 ## Oh-My-Zsh JHipster plugin
 
-The JHipster Oh-My-Zsh plugin is available on GitHub at [https://github.com/jhipster/jhipster-oh-my-zsh-plugin](https://github.com/jhipster/jhipster-oh-my-zsh-plugin).
+The JHipster Oh-My-Zsh plugin is available on GitHub at [https://github.com/bpmlabs/bpmlabs-oh-my-zsh-plugin](https://github.com/bpmlabs/bpmlabs-oh-my-zsh-plugin).
 
-Currently it only adds shortcuts (full list [here](https://github.com/jhipster/jhipster-oh-my-zsh-plugin/blob/master/jhipster.plugin.zsh)), but we welcome contributions to have better auto-completion!
+Currently it only adds shortcuts (full list [here](https://github.com/bpmlabs/bpmlabs-oh-my-zsh-plugin/blob/master/bpmlabs.plugin.zsh)), but we welcome contributions to have better auto-completion!
 
 It is not part (yet) of the official plugin list, so you need to install it manually:
 
@@ -29,7 +29,7 @@ It is not part (yet) of the official plugin list, so you need to install it manu
 
 2. In the command line, change to _oh-my-zsh_'s custom plugin directory and clone the repository:
 
-    `cd ~/.oh-my-zsh/custom/plugins && git clone https://github.com/jhipster/jhipster-oh-my-zsh-plugin.git jhipster && cd && . ~/.zshrc`
+    `cd ~/.oh-my-zsh/custom/plugins && git clone https://github.com/bpmlabs/bpmlabs-oh-my-zsh-plugin.git jhipster && cd && . ~/.zshrc`
 
 ## Recommended plugins
 
@@ -45,12 +45,12 @@ So your plugins section in your `.zshrc` file would be:
 
 If you're using [Antigen](https://github.com/zsh-users/antigen):
 
-1. Add `antigen bundle jhipster/jhipster-oh-my-zsh-plugin` to your `.zshrc` where you've listed your other plugins.
-2. Close and reopen your Terminal/iTerm window to **refresh context** and use the plugin. Alternatively, you can run `antigen bundle jhipster/jhipster-oh-my-zsh-plugin` in a running shell to have antigen clone and load *jhipster*.
+1. Add `antigen bundle jhipster/bpmlabs-oh-my-zsh-plugin` to your `.zshrc` where you've listed your other plugins.
+2. Close and reopen your Terminal/iTerm window to **refresh context** and use the plugin. Alternatively, you can run `antigen bundle jhipster/bpmlabs-oh-my-zsh-plugin` in a running shell to have antigen clone and load *jhipster*.
 
 ### zgen
 
 If you're using [zgen](https://github.com/tarjoilija/zgen):
 
-1. Add `zgen load jhipster/jhipster-oh-my-zsh-plugin` to your `.zshrc` along with your other `zgen load` commands.
+1. Add `zgen load jhipster/bpmlabs-oh-my-zsh-plugin` to your `.zshrc` along with your other `zgen load` commands.
 2. `rm ${ZGEN_INIT}/init.zsh && zgen save`

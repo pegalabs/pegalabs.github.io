@@ -81,7 +81,7 @@ sitemap:
             <div class="caption">
                 <h3 id="thumbnail-label">3 hours of JHipster at Devoxx 2016<a class="anchorjs-link" href="#thumbnail-label"><span class="anchorjs-icon"></span></a></h3>
                 <p>3 hours of JHipster live presentation and demo by our leads <a href="https://twitter.com/juliendubois"><i>@juliendubois</i></a> and <a href="https://twitter.com/deepu105"><i>@deepu105</i></a> at Devoxx Belgium 2016.</p>
-                <p>Slides are available on <a href="http://www.slideshare.net/julien.dubois/devoxx-being-productive-with-jhipster" target="_blank">SlideShare</a> and code developed live is on <a href="https://github.com/jhipster/devoxx-2016" target="_blank">GitHub</a></p>
+                <p>Slides are available on <a href="http://www.slideshare.net/julien.dubois/devoxx-being-productive-with-jhipster" target="_blank">SlideShare</a> and code developed live is on <a href="https://github.com/bpmlabs/devoxx-2016" target="_blank">GitHub</a></p>
                 <p>Published on 8 November 2016</p>
             </div>
         </div>

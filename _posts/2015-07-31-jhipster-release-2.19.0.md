@@ -22,11 +22,11 @@ The biggest news is that we now have an official "board of developers". Many tha
 
 The new [notification feature]({{ site.url }}/using-angularjs/#notification-system) is still a bit young, but is going to help a lot of people: you now have "alerts" that alarm you when a user action is done in the entities (like creating, editing or deleting). They are also useful when an error happens during that action.
 
-We have new data types for the entity sub-generator, for [float and double](https://github.com/jhipster/generator-jhipster/pull/1692).
+We have new data types for the entity sub-generator, for [float and double](https://github.com/bpmlabs/generator-jhipster/pull/1692).
 
-We also have a new [AWS sub-generator](https://github.com/jhipster/generator-jhipster/pull/1686), with more people being ready to help us [test Amazon Beanstalk](https://github.com/jhipster/generator-jhipster/issues/1779), which is really cool.
+We also have a new [AWS sub-generator](https://github.com/bpmlabs/generator-jhipster/pull/1686), with more people being ready to help us [test Amazon Beanstalk](https://github.com/bpmlabs/generator-jhipster/issues/1779), which is really cool.
 
-And as always, __[you can check all the closed tickets here](https://github.com/jhipster/generator-jhipster/issues?q=milestone%3A2.19.0+is%3Aclosed)__.
+And as always, __[you can check all the closed tickets here](https://github.com/bpmlabs/generator-jhipster/issues?q=milestone%3A2.19.0+is%3Aclosed)__.
 
 How to upgrade
 ------------
@@ -55,5 +55,5 @@ Help and bugs
 If you find any issue with this release, don't hesitate to:
 
 - Contact [@java_hipster](https://twitter.com/java_hipster) on Twitter
-- Add a bug on our [bug tracker](https://github.com/jhipster/generator-jhipster/issues?state=open)
-- Post a question on [Stack Overflow](http://stackoverflow.com/tags/jhipster/info)
+- Add a bug on our [bug tracker](https://github.com/bpmlabs/generator-jhipster/issues?state=open)
+- Post a question on [Stack Overflow](http://stackoverflow.com/tags/bpmlabs/info)

@@ -51,8 +51,8 @@ This page describes how to create entities with JHipster using the standard comm
 
 In that case, two options are available:
 
-*   [JHipster UML]({{ site.url }}/jhipster-uml/), which allows you to use an UML editor.
-*   [JDL Studio](https://start.jhipster.tech/jdl-studio/), our online tool to create entities and relationships using our domain-specific language [JDL]({{ site.url }}/jdl/).
+*   [JHipster UML]({{ site.url }}/bpmlabs-uml/), which allows you to use an UML editor.
+*   [JDL Studio](https://bpmlabs.github.io/jdl-studio/), our online tool to create entities and relationships using our domain-specific language [JDL]({{ site.url }}/jdl/).
 
 If you used the JDL Studio:
 
